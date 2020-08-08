@@ -28,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149790}
-  m_LocalRotation: {x: -0, y: -0.20827758, z: -0, w: 0.9780698}
-  m_LocalPosition: {x: -0.20997506, y: 0, z: -0.044716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4619638272641728043}
+  - {fileID: 8283584290430139852}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -24.043001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &9579096
 Animator:
   serializedVersion: 3
@@ -51,7 +51,153 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage: '
+
+    Transform ''EthanLeftToe1'' has been deleted
+
+    Transform
+    ''EthanLeftFoot'' has been deleted
+
+    Transform ''EthanLeftLeg'' has been deleted
+
+    Transform
+    ''EthanLeftUpLeg'' has been deleted
+
+    Transform ''EthanRightToe1'' has been
+    deleted
+
+    Transform ''EthanRightFoot'' has been deleted
+
+    Transform ''EthanRightLeg''
+    has been deleted
+
+    Transform ''EthanRightUpLeg'' has been deleted
+
+    Transform
+    ''EthanJaw'' has been deleted
+
+    Transform ''EthanLeftEye'' has been deleted
+
+    Transform
+    ''EthanRightEye'' has been deleted
+
+    Transform ''EthanHead'' has been deleted
+
+    Transform
+    ''EthanLeftHandIndex3'' has been deleted
+
+    Transform ''EthanLeftHandIndex2''
+    has been deleted
+
+    Transform ''EthanLeftHandIndex1'' has been deleted
+
+    Transform
+    ''EthanLeftHandMiddle3'' has been deleted
+
+    Transform ''EthanLeftHandMiddle2''
+    has been deleted
+
+    Transform ''EthanLeftHandMiddle1'' has been deleted
+
+    Transform
+    ''EthanLeftHandPinky3'' has been deleted
+
+    Transform ''EthanLeftHandPinky2''
+    has been deleted
+
+    Transform ''EthanLeftHandPinky1'' has been deleted
+
+    Transform
+    ''EthanLeftHandRing3'' has been deleted
+
+    Transform ''EthanLeftHandRing2''
+    has been deleted
+
+    Transform ''EthanLeftHandRing1'' has been deleted
+
+    Transform
+    ''EthanLeftHandThumb3'' has been deleted
+
+    Transform ''EthanLeftHandThumb2''
+    has been deleted
+
+    Transform ''EthanLeftHandThumb1'' has been deleted
+
+    Transform
+    ''EthanLeftHand'' has been deleted
+
+    Transform ''EthanLeftForeArm'' has been
+    deleted
+
+    Transform ''EthanLeftArm'' has been deleted
+
+    Transform ''EthanLeftShoulder''
+    has been deleted
+
+    Transform ''EthanRightHandIndex3'' has been deleted
+
+    Transform
+    ''EthanRightHandIndex2'' has been deleted
+
+    Transform ''EthanRightHandIndex1''
+    has been deleted
+
+    Transform ''EthanRightHandMiddle3'' has been deleted
+
+    Transform
+    ''EthanRightHandMiddle2'' has been deleted
+
+    Transform ''EthanRightHandMiddle1''
+    has been deleted
+
+    Transform ''EthanRightHandPinky3'' has been deleted
+
+    Transform
+    ''EthanRightHandPinky2'' has been deleted
+
+    Transform ''EthanRightHandPinky1''
+    has been deleted
+
+    Transform ''EthanRightHandRing3'' has been deleted
+
+    Transform
+    ''EthanRightHandRing2'' has been deleted
+
+    Transform ''EthanRightHandRing1''
+    has been deleted
+
+    Transform ''EthanRightHandThumb3'' has been deleted
+
+    Transform
+    ''EthanRightHandThumb2'' has been deleted
+
+    Transform ''EthanRightHandThumb1''
+    has been deleted
+
+    Transform ''EthanRightHand'' has been deleted
+
+    Transform
+    ''EthanRightForeArm'' has been deleted
+
+    Transform ''EthanRightArm'' has been
+    deleted
+
+    Transform ''EthanRightShoulder'' has been deleted
+
+    Transform
+    ''EthanNeck'' has been deleted
+
+    Transform ''EthanSpine2'' has been deleted
+
+    Transform
+    ''EthanSpine1'' has been deleted
+
+    Transform ''EthanSpine'' has been deleted
+
+    Transform
+    ''EthanHips'' has been deleted
+
+    Transform ''EthanSkeleton'' has been deleted'
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -117,7 +263,7 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 1
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
---- !u!1001 &389267003426362673
+--- !u!1001 &4003560192846436054
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -127,37 +273,37 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5596776
+      value: -0.237
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.14
+      value: 1.799
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.214418
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.69159985
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.14727448
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.1472745
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6915997
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
@@ -167,7 +313,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
@@ -182,12 +328,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
         type: 3}
@@ -201,9 +347,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b6b303683a988f439e206d9fa523b7a, type: 3}
---- !u!4 &4619638272641728043 stripped
+--- !u!4 &8283584290430139852 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3b6b303683a988f439e206d9fa523b7a,
     type: 3}
-  m_PrefabInstance: {fileID: 389267003426362673}
+  m_PrefabInstance: {fileID: 4003560192846436054}
   m_PrefabAsset: {fileID: 0}
