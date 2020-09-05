@@ -1,0 +1,1870 @@
+fileFormatVersion: 2
+guid: 283a23e87cb1f664f8b0359de6465785
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3671099111763005715
+    second: walkin-dude_0
+  - first:
+      213: -2463020425410302448
+    second: walkin-dude_1
+  - first:
+      213: 2152545647245412315
+    second: walkin-dude_2
+  - first:
+      213: -8810532988112630871
+    second: walkin-dude_3
+  - first:
+      213: -6197350618996250192
+    second: walkin-dude_4
+  - first:
+      213: -583284977064445437
+    second: walkin-dude_5
+  - first:
+      213: 1753930604284594896
+    second: walkin-dude_6
+  - first:
+      213: 452934431462782338
+    second: walkin-dude_7
+  - first:
+      213: 4759908183926830338
+    second: walkin-dude_8
+  - first:
+      213: -7285164643096422398
+    second: walkin-dude_9
+  - first:
+      213: -6096044796243045948
+    second: walkin-dude_10
+  - first:
+      213: -4022273456050432843
+    second: walkin-dude_11
+  - first:
+      213: -1836086823064943924
+    second: walkin-dude_12
+  - first:
+      213: -7529454475022932325
+    second: walkin-dude_13
+  - first:
+      213: 6988926509346132892
+    second: walkin-dude_14
+  - first:
+      213: 2882832127580151068
+    second: walkin-dude_15
+  - first:
+      213: -1729610570737814324
+    second: walkin-dude_16
+  - first:
+      213: 5438804858365706305
+    second: walkin-dude_17
+  - first:
+      213: -5232809797139944447
+    second: walkin-dude_18
+  - first:
+      213: 8343585791467063344
+    second: walkin-dude_19
+  - first:
+      213: 9047007381524769993
+    second: walkin-dude_20
+  - first:
+      213: 5796254455943068637
+    second: walkin-dude_21
+  - first:
+      213: 3785946085881459492
+    second: walkin-dude_22
+  - first:
+      213: 3757766984362754901
+    second: walkin-dude_23
+  - first:
+      213: 1526284772867252326
+    second: walkin-dude_24
+  - first:
+      213: 5628142701504744941
+    second: walkin-dude_25
+  - first:
+      213: 808782814121957299
+    second: walkin-dude_26
+  - first:
+      213: 5758586322075734616
+    second: walkin-dude_27
+  - first:
+      213: -9171731091740019101
+    second: walkin-dude_28
+  - first:
+      213: -8880944150327175833
+    second: walkin-dude_29
+  - first:
+      213: 8296891032787261572
+    second: walkin-dude_30
+  - first:
+      213: 1993173399170291833
+    second: walkin-dude_31
+  - first:
+      213: 4706156980108896641
+    second: walkin-dude_32
+  - first:
+      213: 4294875102035305937
+    second: walkin-dude_33
+  - first:
+      213: 5745792651318696038
+    second: walkin-dude_34
+  - first:
+      213: -7242913074601882809
+    second: walkin-dude_35
+  - first:
+      213: 8679621338859064111
+    second: walkin-dude_36
+  - first:
+      213: -5721214655146245907
+    second: walkin-dude_37
+  - first:
+      213: 6667681454061754241
+    second: walkin-dude_38
+  - first:
+      213: -309734676836452261
+    second: walkin-dude_39
+  - first:
+      213: 2079640236370660285
+    second: walkin-dude_40
+  - first:
+      213: -105249674773083961
+    second: walkin-dude_41
+  - first:
+      213: 5336913914008043695
+    second: walkin-dude_42
+  - first:
+      213: 3106936117449449718
+    second: walkin-dude_43
+  - first:
+      213: -8304950142502415655
+    second: walkin-dude_44
+  - first:
+      213: 667605617890994835
+    second: walkin-dude_45
+  - first:
+      213: 8416763908157486266
+    second: walkin-dude_46
+  - first:
+      213: 6913279725810456998
+    second: walkin-dude_47
+  - first:
+      213: -8173670565312869143
+    second: walkin-dude_48
+  - first:
+      213: -4388292211274763046
+    second: walkin-dude_49
+  - first:
+      213: -947170681088145710
+    second: walkin-dude_50
+  - first:
+      213: -1378989711372728263
+    second: walkin-dude_51
+  - first:
+      213: 930921639450232411
+    second: walkin-dude_52
+  - first:
+      213: -5668220769567444286
+    second: walkin-dude_53
+  - first:
+      213: 6800516991125258919
+    second: walkin-dude_54
+  - first:
+      213: 4643660411607331811
+    second: walkin-dude_55
+  - first:
+      213: 8134844410636181361
+    second: walkin-dude_56
+  - first:
+      213: 319006649692808854
+    second: walkin-dude_57
+  - first:
+      213: 2783364129280094599
+    second: walkin-dude_58
+  - first:
+      213: 6458813602696122560
+    second: walkin-dude_59
+  - first:
+      213: -1132527898131501899
+    second: walkin-dude_60
+  - first:
+      213: -1003263163617622428
+    second: walkin-dude_61
+  - first:
+      213: -3231056167213970658
+    second: walkin-dude_62
+  - first:
+      213: 857081496381212370
+    second: walkin-dude_63
+  - first:
+      213: -7216776351321412622
+    second: walkin-dude_64
+  - first:
+      213: -1035333681688808337
+    second: walkin-dude_65
+  - first:
+      213: -1161591368893655644
+    second: walkin-dude_66
+  - first:
+      213: 8677970059588540725
+    second: walkin-dude_67
+  - first:
+      213: 358655461922139603
+    second: walkin-dude_68
+  - first:
+      213: -160997758718010628
+    second: walkin-dude_69
+  - first:
+      213: -8087153982378438613
+    second: walkin-dude_70
+  - first:
+      213: 886352890362789791
+    second: walkin-dude_71
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: -1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walkin-dude_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311d2eb113d52f230800000000000000
+      internalID: 3671099111763005715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 245.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e23e409f791ddd0800000000000000
+      internalID: -2463020425410302448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 245.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd740ea8cd06fdd10800000000000000
+      internalID: 2152545647245412315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 245.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab8fa17de2bab580800000000000000
+      internalID: -8810532988112630871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 245.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b96e2e62769ef9a0800000000000000
+      internalID: -6197350618996250192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 245.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a704b5761c7e7f0800000000000000
+      internalID: -583284977064445437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 245.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dac1158796375810800000000000000
+      internalID: 1753930604284594896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 245.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285f1e53775294600800000000000000
+      internalID: 452934431462782338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 245.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205fe6236479e0240800000000000000
+      internalID: 4759908183926830338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20890060b55e5ea90800000000000000
+      internalID: -7285164643096422398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 210.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c190195e8f766ba0800000000000000
+      internalID: -6096044796243045948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 210.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b491a64a930e28c0800000000000000
+      internalID: -4022273456050432843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 210.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2407e23c8e486e0800000000000000
+      internalID: -1836086823064943924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 210.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9668c73c01028790800000000000000
+      internalID: -7529454475022932325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 210.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9313ee91a7adf060800000000000000
+      internalID: 6988926509346132892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 210.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d9f7fcb80e10820800000000000000
+      internalID: 2882832127580151068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_16
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 210.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4796b89503ff7e0800000000000000
+      internalID: -1729610570737814324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 210.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1408e81e3348a7b40800000000000000
+      internalID: 5438804858365706305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c2a40d6335167b0800000000000000
+      internalID: -5232809797139944447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 175.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0380465321f5ac370800000000000000
+      internalID: 8343585791467063344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 175.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccee18c74d6d8d70800000000000000
+      internalID: 9047007381524769993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 175.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbf242c7be607050800000000000000
+      internalID: 5796254455943068637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 175.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423beb308e16a8430800000000000000
+      internalID: 3785946085881459492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_23
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 175.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55302aba925462430800000000000000
+      internalID: 3757766984362754901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 175.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66027d01ae37e2510800000000000000
+      internalID: 1526284772867252326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 175.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedc564c7fd2b1e40800000000000000
+      internalID: 5628142701504744941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_26
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 175.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b71e203faf593b00800000000000000
+      internalID: 808782814121957299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8525fb7efbb9aef40800000000000000
+      internalID: 5758586322075734616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_28
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 140.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3663e6d7a2777b080800000000000000
+      internalID: -9171731091740019101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_29
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 140.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7655aa9395c80c480800000000000000
+      internalID: -8880944150327175833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_30
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 140.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488986d7f6a742370800000000000000
+      internalID: 8296891032787261572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_31
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 140.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9789d4175ac29ab10800000000000000
+      internalID: 1993173399170291833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_32
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 140.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189ad90d6d0af4140800000000000000
+      internalID: 4706156980108896641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_33
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 140.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5eb7b66267a9b30800000000000000
+      internalID: 4294875102035305937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_34
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 140.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66896ee49f72dbf40800000000000000
+      internalID: 5745792651318696038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_35
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 140.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b8259eee00c7b90800000000000000
+      internalID: -7242913074601882809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b489ffe95347870800000000000000
+      internalID: 8679621338859064111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_37
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 105.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0cf3c55992a90b0800000000000000
+      internalID: -5721214655146245907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 105.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1879fc0a4fc588c50800000000000000
+      internalID: 6667681454061754241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_39
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 105.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58fa84d3f993bbf0800000000000000
+      internalID: -309734676836452261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_40
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 105.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb8b7dc6cd5cdc10800000000000000
+      internalID: 2079640236370660285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_41
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 105.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8cc6a7af31a8ef0800000000000000
+      internalID: -105249674773083961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 105.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa00a49bde6801a40800000000000000
+      internalID: 5336913914008043695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_43
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 105.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0e76400fd0e1b20800000000000000
+      internalID: 3106936117449449718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 105.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d250dec8d3eebc80800000000000000
+      internalID: -8304950142502415655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39aa278b5cfc34900800000000000000
+      internalID: 667605617890994835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_46
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 70.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab43e083e2a5ec470800000000000000
+      internalID: 8416763908157486266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_47
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 70.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a997d15847e0ff50800000000000000
+      internalID: 6913279725810456998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_48
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 70.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecc5734de9419e80800000000000000
+      internalID: -8173670565312869143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_49
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 70.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4ba58eb77a913c0800000000000000
+      internalID: -4388292211274763046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_50
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 70.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6831ca849fad2f0800000000000000
+      internalID: -947170681088145710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_51
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 70.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938c5b8e928dcdce0800000000000000
+      internalID: -1378989711372728263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_52
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 70.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56c7218c4c4bec00800000000000000
+      internalID: 930921639450232411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_53
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 70.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2f079dd3f6651b0800000000000000
+      internalID: -5668220769567444286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a287093c2a406e50800000000000000
+      internalID: 6800516991125258919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_55
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3366b8a88917040800000000000000
+      internalID: 4643660411607331811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_56
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 35.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f9a0724e5c4e070800000000000000
+      internalID: 8134844410636181361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_57
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 35.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6966de39bd65d6400800000000000000
+      internalID: 319006649692808854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_58
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 35.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781fd4ebdee70a620800000000000000
+      internalID: 2783364129280094599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_59
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 35.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0d92b50c052a950800000000000000
+      internalID: 6458813602696122560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_60
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 35.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bce6a580e37840f0800000000000000
+      internalID: -1132527898131501899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_61
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 35.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466465cd771b312f0800000000000000
+      internalID: -1003263163617622428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_62
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 35.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b40e7e88bf823d0800000000000000
+      internalID: -3231056167213970658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6cc577417f4eb00800000000000000
+      internalID: 857081496381212370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_64
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb2c04052cd8db90800000000000000
+      internalID: -7216776351321412622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_65
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64f0fe7081c1a1f0800000000000000
+      internalID: -1035333681688808337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_66
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a51feaedc231efe0800000000000000
+      internalID: -1161591368893655644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_67
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53910459ac75e6870800000000000000
+      internalID: 8677970059588540725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_68
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd6f9c0e333af400800000000000000
+      internalID: 358655461922139603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_69
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa9af5346504cdf0800000000000000
+      internalID: -160997758718010628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_70
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b209274fc48a4cf80800000000000000
+      internalID: -8087153982378438613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkin-dude_71
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0.875
+        width: 35
+        height: 35.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ff6b7f145fc4c00800000000000000
+      internalID: 886352890362789791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
