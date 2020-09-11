@@ -19,6 +19,14 @@ public class ShootForward : MonoBehaviour
         StartCoroutine(FireCo());
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            DecreaseHealth(1f);
+        }
+    }
+
     void Fire()
     {
         GameObject projectile1 = Instantiate(_projectilePrefab, _spawnPoint1.position, _spawnPoint1.rotation);
