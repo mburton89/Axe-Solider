@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class TestAxeSoldier : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Give Damage")
+        {
+            Debug.Log("Hurt Player!");
+        }
+    }
+
     void Start()
     {
         

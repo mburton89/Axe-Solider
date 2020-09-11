@@ -6141,6 +6141,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1440424376777726024, guid: d84f5d46e53cf3d4cb8ef59498542003,
+        type: 3}
+      propertyPath: m_TagString
+      value: Give Damage
+      objectReference: {fileID: 0}
     - target: {fileID: 1440424376777726029, guid: d84f5d46e53cf3d4cb8ef59498542003,
         type: 3}
       propertyPath: m_LocalPosition.x

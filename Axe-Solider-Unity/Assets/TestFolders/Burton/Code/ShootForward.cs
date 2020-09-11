@@ -23,7 +23,7 @@ public class ShootForward : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            DecreaseHealth(1f);
+            //DecreaseHealth(1f);
         }
     }
 

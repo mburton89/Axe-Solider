@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEditor;
  
-public class Object2Terrain : EditorWindow {
+public class Object3Terrain : EditorWindow {
  
 	[MenuItem("Terrain/Object to Terrain", false, 2000)] static void OpenWindow () {
  
-		EditorWindow.GetWindow<Object2Terrain>(true);
+		EditorWindow.GetWindow<Object3Terrain>(true);
 	}
  
 	private int resolution = 512;
