@@ -29,6 +29,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 
+        public Animator animator;
 
 		void Start()
 		{
@@ -73,7 +74,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 			// send input and other state parameters to the animator
 			UpdateAnimator(move);
-		}
+
+            animator.SetFloat("speed", Mathf.Abs(m_ForwardAmount));
+            animator.SetBool("isJumping", !m_IsGrounded);
+        }
 
 
 		void ScaleCapsuleForCrouching(bool crouch)
