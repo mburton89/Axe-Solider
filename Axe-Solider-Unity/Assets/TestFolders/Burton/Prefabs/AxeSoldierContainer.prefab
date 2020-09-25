@@ -419,8 +419,8 @@ MonoBehaviour:
   m_JumpPower: 6
   m_GravityMultiplier: 1
   m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1.5
-  m_AnimSpeedMultiplier: 1.5
+  m_MoveSpeedMultiplier: 1.8
+  m_AnimSpeedMultiplier: 1.8
   m_GroundCheckDistance: 0.3
   animator: {fileID: 7756453739749249861}
 --- !u!114 &7756453740325481458
@@ -440,6 +440,7 @@ MonoBehaviour:
   _thrownAxeSpawnPoint: {fileID: 7756453740397058487}
   _thrownAxePrefab: {fileID: 2833755180469367407, guid: fb20476d2ed59bd45914fda198cc8b73,
     type: 3}
+  _pivot: {fileID: 0}
   throwKey: 101
 --- !u!1 &7756453740397058488
 GameObject:
@@ -531,7 +532,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: df6e3b8b89f6ab04086bb67157f8e06e, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
