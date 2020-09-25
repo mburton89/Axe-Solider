@@ -12,6 +12,8 @@ public class AxeSoldier : MonoBehaviour
     [SerializeField]
     private ThrownAxe _thrownAxePrefab;
     [SerializeField]
+    private Transform _pivot;
+    [SerializeField]
     private KeyCode throwKey;
 
     private bool _canThrowAxe;
@@ -32,7 +34,7 @@ public class AxeSoldier : MonoBehaviour
     void ThrowAxe()
     {
         ThrownAxe thrownAxe = Instantiate(_thrownAxePrefab, _thrownAxeSpawnPoint.position, _thrownAxeSpawnPoint.rotation);
-        thrownAxe.GetComponent<Rigidbody>().AddForce(transform.forward * projectileSpeed);
+        thrownAxe.GetComponent<Rigidbody>().AddForce(-_pivot.transform.forward * projectileSpeed);
         StartCoroutine(FireRateBuffer());
     }
 
