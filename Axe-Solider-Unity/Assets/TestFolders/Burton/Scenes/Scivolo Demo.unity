@@ -4471,6 +4471,18 @@ Transform:
   m_Father: {fileID: 1078148757}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &635705630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1465796141327233804, guid: e885244a1d00f2e4bb2a28a8a31830be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1465796141799352850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &635705631 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1465796141327233805, guid: e885244a1d00f2e4bb2a28a8a31830be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1465796141799352850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &645720699
 GameObject:
   m_ObjectHideFlags: 0
@@ -13408,3 +13420,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e885244a1d00f2e4bb2a28a8a31830be, type: 3}
+--- !u!1 &2573877700382832798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4030666632992428684, guid: e885244a1d00f2e4bb2a28a8a31830be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1465796141799352850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2573877700382832800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2573877700382832798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d449e023401495444999177e8dbb1cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileSpeed: 500
+  fireRate: 1
+  _thrownAxeSpawnPoint: {fileID: 2573877701259420447}
+  _thrownAxePrefab: {fileID: 7477564964366079728, guid: 10649ea87cc378948840cc26aa0074a5,
+    type: 3}
+  _pivot: {fileID: 635705630}
+  throwKey: 304
+  _animator: {fileID: 635705631}
+--- !u!4 &2573877701259420447 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4030666634942957837, guid: e885244a1d00f2e4bb2a28a8a31830be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1465796141799352850}
+  m_PrefabAsset: {fileID: 0}

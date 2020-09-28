@@ -15,6 +15,8 @@ public class AxeSoldier : MonoBehaviour
     private Transform _pivot;
     [SerializeField]
     private KeyCode throwKey;
+    [SerializeField]
+    private Animator _animator;
 
     private bool _canThrowAxe;
 
@@ -27,7 +29,7 @@ public class AxeSoldier : MonoBehaviour
     {
         if (Input.GetKeyDown(throwKey) && _canThrowAxe)
         {
-            ThrowAxe();
+            StartCoroutine(ThrowAxeCo());
         }
     }
 
@@ -35,13 +37,16 @@ public class AxeSoldier : MonoBehaviour
     {
         ThrownAxe thrownAxe = Instantiate(_thrownAxePrefab, _thrownAxeSpawnPoint.position, _thrownAxeSpawnPoint.rotation);
         thrownAxe.GetComponent<Rigidbody>().AddForce(-_pivot.transform.forward * projectileSpeed);
-        StartCoroutine(FireRateBuffer());
     }
 
-    private IEnumerator FireRateBuffer()
+    private IEnumerator ThrowAxeCo()
     {
         _canThrowAxe = false;
-        yield return new WaitForSeconds(fireRate);
+        _animator.SetBool("isAttacking", true);
+        yield return new WaitForSeconds(.5f);
+        ThrowAxe();
+        yield return new WaitForSeconds(5f);
         _canThrowAxe = true;
+        _animator.SetBool("isAttacking", false);
     }
 }
