@@ -259,6 +259,7 @@ GameObject:
   - component: {fileID: 4030666632992428678}
   - component: {fileID: 4030666632992428683}
   - component: {fileID: 4030666632992428682}
+  - component: {fileID: 2573877700382832800}
   m_Layer: 0
   m_Name: AxeSoldier
   m_TagString: Untagged
@@ -295,7 +296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   verticalOffset: 0.04
-  height: 0.6
+  height: 1.78
   radius: 0.3
 --- !u!114 &4030666632992428678
 MonoBehaviour:
@@ -348,6 +349,26 @@ MonoBehaviour:
   mover: {fileID: 4030666632992428678}
   groundDetector: {fileID: 4030666632992428683}
   groundedIndicator: {fileID: 0}
+--- !u!114 &2573877700382832800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030666632992428684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d449e023401495444999177e8dbb1cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileSpeed: 500
+  fireRate: 1
+  _thrownAxeSpawnPoint: {fileID: 4030666634942957837}
+  _thrownAxePrefab: {fileID: 7477564964366079728, guid: 10649ea87cc378948840cc26aa0074a5,
+    type: 3}
+  _pivot: {fileID: 1465796141327233804}
+  throwKey: 304
+  _animator: {fileID: 1465796141327233805}
 --- !u!1 &4030666634942957836
 GameObject:
   m_ObjectHideFlags: 0
