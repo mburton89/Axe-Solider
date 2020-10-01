@@ -29,7 +29,7 @@ public class AxeSoldier : MonoBehaviour
     {
         if (Input.GetKeyDown(throwKey) && _canThrowAxe)
         {
-            StartCoroutine(ThrowAxeCo());
+            ThrowAxe();
         }
     }
 
