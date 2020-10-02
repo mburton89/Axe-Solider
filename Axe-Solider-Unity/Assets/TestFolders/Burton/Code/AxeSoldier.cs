@@ -10,7 +10,7 @@ public class AxeSoldier : MonoBehaviour
     [SerializeField]
     private Transform _thrownAxeSpawnPoint;
     [SerializeField]
-    private ThrownAxe _thrownAxePrefab;
+    private ThrownAxe _thrownAxe;
     [SerializeField]
     private Transform _pivot;
     [SerializeField]
@@ -27,16 +27,24 @@ public class AxeSoldier : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(throwKey) && _canThrowAxe)
+        if (Input.GetMouseButtonDown(0) && _canThrowAxe)
         {
             ThrowAxe();
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            RetrieveAxe();
         }
     }
 
     void ThrowAxe()
     {
-        ThrownAxe thrownAxe = Instantiate(_thrownAxePrefab, _thrownAxeSpawnPoint.position, _thrownAxeSpawnPoint.rotation);
-        thrownAxe.GetComponent<Rigidbody>().AddForce(-_pivot.transform.forward * projectileSpeed);
+        _thrownAxe.isThrown = true;
+    }
+
+    void RetrieveAxe()
+    {
+        _thrownAxe.isThrown = false;
     }
 
     private IEnumerator ThrowAxeCo()
