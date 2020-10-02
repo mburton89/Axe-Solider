@@ -5,11 +5,12 @@ using UnityEngine;
 public class ThrownAxe : MonoBehaviour
 {
     public float rotationSpeed;
+    public Transform sprite;
     public Vector3 rotation;
 
     private void Update()
     {
-        transform.Rotate(rotation * (rotationSpeed * Time.deltaTime));
+        sprite.Rotate(rotation * (rotationSpeed * Time.deltaTime));
     }
 
     private void OnCollisionEnter(Collision collision)
