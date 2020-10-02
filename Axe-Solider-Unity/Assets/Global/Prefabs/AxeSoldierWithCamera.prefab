@@ -276,7 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 4030666634942957837}
   distance: 5
-  sensitivity: 100
+  sensitivity: 85
 --- !u!1 &4030666632992428684
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,8 +373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74d295e2a71412d4f9f68727410e7304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
-  jumpSpeed: 12
+  moveSpeed: 14
+  jumpSpeed: 14
   rotationSpeed: 900
   gravity: -25
   mover: {fileID: 4030666632992428678}
