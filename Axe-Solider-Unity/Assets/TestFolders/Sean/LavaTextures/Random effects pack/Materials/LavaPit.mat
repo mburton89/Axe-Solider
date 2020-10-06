@@ -114,8 +114,8 @@ Material:
     - _Strench: 0.2
     - _Strensh: 2
     - _TextureChangespeed: 0.8
-    - _TextureDistanse: 1
-    - _TextureStrench: 0.009
+    - _TextureDistanse: 0
+    - _TextureStrench: 0.952
     - _UVSec: 0
     - _U_Speed: 0.5
     - _V_Speed: 0.2
