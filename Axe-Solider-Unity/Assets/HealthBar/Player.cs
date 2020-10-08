@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
+    public float healthRegenRate = 1;
+    private float regenDelay = 1;
 
     public HealthBar healthBar;
     // Start is called before the first frame update
@@ -30,4 +32,10 @@ public class Player : MonoBehaviour
 
         healthBar.SetHealth(currentHealth);
     }
+
+    void RegenHealth(int Heal)
+    {
+
+    }
+
 }
