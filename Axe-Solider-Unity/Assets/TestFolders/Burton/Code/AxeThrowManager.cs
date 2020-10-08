@@ -12,13 +12,12 @@ public class AxeThrowManager : MonoBehaviour
 
     public void ThrowAxe()
     {
-        StartCoroutine(ThrowAxeCo());
+        StartCoroutine(nameof(ThrowAxeCo));
     }
 
     private IEnumerator ThrowAxeCo()
     {
-        _initialSprite.enabled = false;
-        _axeThrowSprite.enabled = true;
+        ToggleThrowAnimation(true);
 
         for (int i = 0; i < _axeThrowSprites.Count; i++)
         {
@@ -31,12 +30,20 @@ public class AxeThrowManager : MonoBehaviour
             yield return new WaitForSeconds(_secondsBetweenFrames);
         }
 
-        _initialSprite.enabled = true;
-        _axeThrowSprite.enabled = false;
+        ToggleThrowAnimation(false);
+
     }
 
     public void RetrieveAxe()
     {
+        StopCoroutine(nameof(ThrowAxeCo));
+        ToggleThrowAnimation(false);
         _axe.isThrown = false;
+    }
+
+    void ToggleThrowAnimation(bool isThrowing)
+    {
+        _initialSprite.enabled = !isThrowing;
+        _axeThrowSprite.enabled = isThrowing;
     }
 }

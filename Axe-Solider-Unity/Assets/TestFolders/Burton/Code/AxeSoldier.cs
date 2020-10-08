@@ -5,7 +5,6 @@ using UnityEngine;
 public class AxeSoldier : MonoBehaviour
 {
     [SerializeField] private Transform _pivot;
-    [SerializeField] private KeyCode throwKey;
     [SerializeField] private Animator _animator;
     [SerializeField] private AxeThrowManager _axeThrowManager;
     [HideInInspector] public bool canThrowAxe;
