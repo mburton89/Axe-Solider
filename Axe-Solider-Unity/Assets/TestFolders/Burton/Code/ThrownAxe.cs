@@ -37,7 +37,6 @@ public class ThrownAxe : MonoBehaviour
             float step = movementSpeed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, retrievedTarget.position, step);
 
-            print(Vector3.Distance(transform.position, retrievedTarget.position));
 
             if (Vector3.Distance(transform.position, retrievedTarget.position) < 0.1f)
             {
