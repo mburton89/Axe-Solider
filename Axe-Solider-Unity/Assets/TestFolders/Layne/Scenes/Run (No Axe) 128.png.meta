@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: c1c0e981be011cb4997c1517f2eff110
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9148253589706229550
+    second: Run (No Axe) 128_0
+  - first:
+      213: 4113555401649104308
+    second: Run (No Axe) 128_1
+  - first:
+      213: -5316070150040558091
+    second: Run (No Axe) 128_2
+  - first:
+      213: -7882488532551153741
+    second: Run (No Axe) 128_3
+  - first:
+      213: 6443546974728174764
+    second: Run (No Axe) 128_4
+  - first:
+      213: -8493166695635312983
+    second: Run (No Axe) 128_5
+  - first:
+      213: 5390383857204067766
+    second: Run (No Axe) 128_6
+  - first:
+      213: -6884174026911479180
+    second: Run (No Axe) 128_7
+  - first:
+      213: -6355435702818298404
+    second: Run (No Axe) 128_8
+  - first:
+      213: 8293526736370201258
+    second: Run (No Axe) 128_9
+  - first:
+      213: -3820421295770678047
+    second: Run (No Axe) 128_10
+  - first:
+      213: -2714618145549549803
+    second: Run (No Axe) 128_11
+  - first:
+      213: 2454429177698611087
+    second: Run (No Axe) 128_12
+  - first:
+      213: 1059602745850292050
+    second: Run (No Axe) 128_13
+  - first:
+      213: -7904553690859714267
+    second: Run (No Axe) 128_14
+  - first:
+      213: -6380422432909542517
+    second: Run (No Axe) 128_15
+  - first:
+      213: 4630708752913888602
+    second: Run (No Axe) 128_16
+  - first:
+      213: 1622946562372259541
+    second: Run (No Axe) 128_17
+  - first:
+      213: -3415370528008794748
+    second: Run (No Axe) 128_18
+  - first:
+      213: 9067247921455416438
+    second: Run (No Axe) 128_19
+  - first:
+      213: 6484865097261945089
+    second: Run (No Axe) 128_20
+  - first:
+      213: 3305787060698958272
+    second: Run (No Axe) 128_21
+  - first:
+      213: -2630049294866821349
+    second: Run (No Axe) 128_22
+  - first:
+      213: 7052077477603159910
+    second: Run (No Axe) 128_23
+  - first:
+      213: 4982764986203002246
+    second: Run (No Axe) 128_24
+  - first:
+      213: 7763827082852132119
+    second: Run (No Axe) 128_25
+  - first:
+      213: -699688295851744065
+    second: Run (No Axe) 128_26
+  - first:
+      213: -2426733877949222551
+    second: Run (No Axe) 128_27
+  - first:
+      213: -3903857299823546562
+    second: Run (No Axe) 128_28
+  - first:
+      213: 3469274788472773564
+    second: Run (No Axe) 128_29
+  - first:
+      213: 3746575093972466552
+    second: Run (No Axe) 128_30
+  - first:
+      213: -5803147601971483979
+    second: Run (No Axe) 128_31
+  - first:
+      213: -8392652273167565465
+    second: Run (No Axe) 128_32
+  - first:
+      213: 3885890769525333324
+    second: Run (No Axe) 128_33
+  - first:
+      213: -5371308200437508054
+    second: Run (No Axe) 128_34
+  - first:
+      213: 7347973922887212995
+    second: Run (No Axe) 128_35
+  - first:
+      213: 963919763894765121
+    second: Run (No Axe) 128_36
+  - first:
+      213: -4572745267820880682
+    second: Run (No Axe) 128_37
+  - first:
+      213: 4740310431404268619
+    second: Run (No Axe) 128_38
+  - first:
+      213: 6305108877559105792
+    second: Run (No Axe) 128_39
+  - first:
+      213: 2542553533292968985
+    second: Run (No Axe) 128_40
+  - first:
+      213: 5896928328543339002
+    second: Run (No Axe) 128_41
+  - first:
+      213: -5039262941646274686
+    second: Run (No Axe) 128_42
+  - first:
+      213: 365345829935607798
+    second: Run (No Axe) 128_43
+  - first:
+      213: 4068873490212413245
+    second: Run (No Axe) 128_44
+  - first:
+      213: 3901605917203775266
+    second: Run (No Axe) 128_45
+  - first:
+      213: -3922386938886762041
+    second: Run (No Axe) 128_46
+  - first:
+      213: -8361743512928947667
+    second: Run (No Axe) 128_47
+  - first:
+      213: 5312199127036065231
+    second: Run (No Axe) 128_48
+  - first:
+      213: 6575694422655403346
+    second: Run (No Axe) 128_49
+  - first:
+      213: 2319604856857859119
+    second: Run (No Axe) 128_50
+  - first:
+      213: -4543203661606307913
+    second: Run (No Axe) 128_51
+  - first:
+      213: -3761326628902758920
+    second: Run (No Axe) 128_52
+  - first:
+      213: -2067788796468805002
+    second: Run (No Axe) 128_53
+  - first:
+      213: 2733091230472174706
+    second: Run (No Axe) 128_54
+  - first:
+      213: 3186803662631090738
+    second: Run (No Axe) 128_55
+  - first:
+      213: 7099679076535774968
+    second: Run (No Axe) 128_56
+  - first:
+      213: 7772183428605817019
+    second: Run (No Axe) 128_57
+  - first:
+      213: -2231145198958261249
+    second: Run (No Axe) 128_58
+  - first:
+      213: -2115304056042151689
+    second: Run (No Axe) 128_59
+  - first:
+      213: -411463353921969132
+    second: Run (No Axe) 128_60
+  - first:
+      213: 3839418473172779802
+    second: Run (No Axe) 128_61
+  - first:
+      213: -5712155968396529862
+    second: Run (No Axe) 128_62
+  - first:
+      213: 7084302544571315721
+    second: Run (No Axe) 128_63
+  - first:
+      213: 7803904751500924681
+    second: Run (No Axe) 128_64
+  - first:
+      213: 8863825253592166577
+    second: Run (No Axe) 128_65
+  - first:
+      213: 322809025516239778
+    second: Run (No Axe) 128_66
+  - first:
+      213: 1006653921033813440
+    second: Run (No Axe) 128_67
+  - first:
+      213: 4760173330137585297
+    second: Run (No Axe) 128_68
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run (No Axe) 128_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d83e5664dfda0180800000000000000
+      internalID: -9148253589706229550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (No Axe) 128_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b52f2fd7d8461930800000000000000
+      internalID: 4113555401649104308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (No Axe) 128_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f566c14d568936b0800000000000000
+      internalID: -5316070150040558091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (No Axe) 128_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7c23f5176cb9290800000000000000
+      internalID: -7882488532551153741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (No Axe) 128_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac373a85d31c6950800000000000000
+      internalID: 6443546974728174764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (No Axe) 128_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae9a7893e5322a80800000000000000
+      internalID: -8493166695635312983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (No Axe) 128_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdf5a30f8d7eca40800000000000000
+      internalID: 5390383857204067766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (No Axe) 128_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a88f942308670a0800000000000000
+      internalID: -6884174026911479180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (No Axe) 128_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd52eac96e4fcc7a0800000000000000
+      internalID: -6355435702818298404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (No Axe) 128_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2fc8030a6881370800000000000000
+      internalID: 8293526736370201258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 22302e5af9711c9498ad56e65577bcda
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
