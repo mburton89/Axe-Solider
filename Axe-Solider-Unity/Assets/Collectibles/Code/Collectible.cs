@@ -6,7 +6,12 @@ public abstract class Collectible : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        GetCollected();
+        //if (collision.tag == "Player")
+        {
+            //SoundManager.Instance.PlaySound(collectSound);
+            Destroy(gameObject);
+            GetCollected();
+        }
     }
 
     public abstract void GetCollected();

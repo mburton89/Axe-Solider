@@ -8,5 +8,8 @@ public class Coin : Collectible
     {
         Destroy(gameObject);
         //Handle updating coin UI here.
+        CoinManager.Instance.IncrementCollectedCoinCount();
+        print("Got Coin");
+
     }
 }
