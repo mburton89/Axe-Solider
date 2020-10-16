@@ -6,7 +6,7 @@ public abstract class Collectible : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        //if (collision.tag == "Player")
+        if (other.tag == "Player")
         {
             //SoundManager.Instance.PlaySound(collectSound);
             Destroy(gameObject);

@@ -15,7 +15,7 @@ public class CoinManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        //_totalCoins = FindObjectsOfType<Coin>.Length;
+        _totalCoins = FindObjectsOfType<Coin>().Length;
         DisplayCoinCount();
     }
 
@@ -31,6 +31,7 @@ public class CoinManager : MonoBehaviour
 
         if(_collectedCoins >= _totalCoins)
         {
+            //You Win Menu? Or Level Continue
             //YouWinMenu.Instance.Show();
         }
     }
