@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: ed907daac0bca954bb126dc2d778606b
+=======
+guid: 25931dcfd19b2da4ea77da2eff3d7dbe
+>>>>>>> origin/nam-coins-10/14
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
