@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 6466343987474644c97cef7edb89722e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6766687601102234179
+    second: "Frogge_\xE9_Death_240x168_0"
+  - first:
+      213: -2274175945718451256
+    second: "Frogge_\xE9_Death_240x168_1"
+  - first:
+      213: -6702568425544313014
+    second: "Frogge_\xE9_Death_240x168_2"
+  - first:
+      213: 8672860684569731127
+    second: "Frogge_\xE9_Death_240x168_3"
+  - first:
+      213: -422511458033334171
+    second: "Frogge_\xE9_Death_240x168_4"
+  - first:
+      213: -7517513088478237385
+    second: "Frogge_\xE9_Death_240x168_5"
+  - first:
+      213: 3906515631616351607
+    second: "Frogge_\xE9_Death_240x168_6"
+  - first:
+      213: -3800702138862392266
+    second: "Frogge_\xE9_Death_240x168_7"
+  - first:
+      213: -7568364637527384546
+    second: "Frogge_\xE9_Death_240x168_8"
+  - first:
+      213: 2898010111070373898
+    second: "Frogge_\xE9_Death_240x168_9"
+  - first:
+      213: -3404242934768297008
+    second: "Frogge_\xE9_Death_240x168_10"
+  - first:
+      213: 6653067547735833388
+    second: "Frogge_\xE9_Death_240x168_11"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -135,7 +171,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdd24e6a75e712a0800000000000000
+      internalID: -6766687601102234179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_1"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 504
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3b6b6c6018070e0800000000000000
+      internalID: -2274175945718451256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_2"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 504
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a479ea85781bbf2a0800000000000000
+      internalID: -6702568425544313014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730ea3287d03c5870800000000000000
+      internalID: 8672860684569731127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_4"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56804664110f22af0800000000000000
+      internalID: -422511458033334171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_5"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 336
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73da7eeecad6ca790800000000000000
+      internalID: -7517513088478237385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dd004f44bb63630800000000000000
+      internalID: 3906515631616351607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_7"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 168
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c2a0caa81314bc0800000000000000
+      internalID: -3800702138862392266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_8"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 168
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e5d890674c7f690800000000000000
+      internalID: -7568364637527384546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_9"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0807d977dcc73820800000000000000
+      internalID: 2898010111070373898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_10"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db90085613b1c0d0800000000000000
+      internalID: -3404242934768297008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Death_240x168_11"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b39796fa1745c50800000000000000
+      internalID: 6653067547735833388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
