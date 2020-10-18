@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: f551cbbdb909bce4aad339a0218174fc
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8514627639994702520
+    second: "Frogge_\xE9_Jump_(Front)_240x168_0"
+  - first:
+      213: 3731273047313848748
+    second: "Frogge_\xE9_Jump_(Front)_240x168_1"
+  - first:
+      213: -8907350475042695896
+    second: "Frogge_\xE9_Jump_(Front)_240x168_2"
+  - first:
+      213: -2225579133791378276
+    second: "Frogge_\xE9_Jump_(Front)_240x168_3"
+  - first:
+      213: 6814960011959582283
+    second: "Frogge_\xE9_Jump_(Front)_240x168_4"
+  - first:
+      213: 9172621270449465810
+    second: "Frogge_\xE9_Jump_(Front)_240x168_5"
+  - first:
+      213: -7327344161228204277
+    second: "Frogge_\xE9_Jump_(Front)_240x168_6"
+  - first:
+      213: 5327198622612099390
+    second: "Frogge_\xE9_Jump_(Front)_240x168_7"
+  - first:
+      213: -7677600523148971714
+    second: "Frogge_\xE9_Jump_(Front)_240x168_8"
+  - first:
+      213: -6076367662760903201
+    second: "Frogge_\xE9_Jump_(Front)_240x168_9"
+  - first:
+      213: 8797305933588709684
+    second: "Frogge_\xE9_Jump_(Front)_240x168_10"
+  - first:
+      213: 8355238634275768771
+    second: "Frogge_\xE9_Jump_(Front)_240x168_11"
+  - first:
+      213: -627892774021005667
+    second: "Frogge_\xE9_Jump_(Front)_240x168_12"
+  - first:
+      213: -1402145408769831111
+    second: "Frogge_\xE9_Jump_(Front)_240x168_13"
+  - first:
+      213: -6288753647936409797
+    second: "Frogge_\xE9_Jump_(Front)_240x168_14"
+  - first:
+      213: -6520429760575288358
+    second: "Frogge_\xE9_Jump_(Front)_240x168_15"
+  - first:
+      213: 6017507067618510354
+    second: "Frogge_\xE9_Jump_(Front)_240x168_16"
+  - first:
+      213: 6347531382181725885
+    second: "Frogge_\xE9_Jump_(Front)_240x168_17"
+  - first:
+      213: 188128154387048447
+    second: "Frogge_\xE9_Jump_(Front)_240x168_18"
+  - first:
+      213: 3186332651383956674
+    second: "Frogge_\xE9_Jump_(Front)_240x168_19"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +101,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -135,7 +195,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba5b94e9b80a2670800000000000000
+      internalID: 8514627639994702520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_1"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca99121411528c330800000000000000
+      internalID: 3731273047313848748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_2"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8255c25afebb26480800000000000000
+      internalID: -8907350475042695896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_3"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 672
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94e7d6c1972d11e0800000000000000
+      internalID: -2225579133791378276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eb75f060a939e50800000000000000
+      internalID: 6814960011959582283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_5"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 504
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d925546272bb4f70800000000000000
+      internalID: 9172621270449465810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_6"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 504
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07d5faae4b005a90800000000000000
+      internalID: -7327344161228204277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_7"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 504
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e319ebc2ce20ee940800000000000000
+      internalID: 5327198622612099390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e313a5a700fa37590800000000000000
+      internalID: -7677600523148971714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_9"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd37700ec76caba0800000000000000
+      internalID: -6076367662760903201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_10"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 336
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431cdffe22f461a70800000000000000
+      internalID: 8797305933588709684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_11"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 336
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c980a91545c3f370800000000000000
+      internalID: 8355238634275768771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_12"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e717749d64947f0800000000000000
+      internalID: -627892774021005667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_13"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 168
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f44dafd249a8ce0800000000000000
+      internalID: -1402145408769831111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_14"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 168
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3feece50ebd9b8a0800000000000000
+      internalID: -6288753647936409797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_15"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 168
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb4602fda7c285a0800000000000000
+      internalID: -6520429760575288358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_16"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216cdcebbca728350800000000000000
+      internalID: 6017507067618510354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_17"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db606935926f61850800000000000000
+      internalID: 6347531382181725885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_18"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff76d764f8d5c9200800000000000000
+      internalID: 188128154387048447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Frogge_\xE9_Jump_(Front)_240x168_19"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 240
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c428fd1aa0283c20800000000000000
+      internalID: 3186332651383956674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

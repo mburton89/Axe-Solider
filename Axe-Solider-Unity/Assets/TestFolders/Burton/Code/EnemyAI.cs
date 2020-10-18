@@ -24,10 +24,16 @@ public class EnemyAI : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    private Animator _animator;
+    public enum AnimationState {Idle, Walk, Attack, Defend}
+
+    public bool shouldPatrol;
+
     private void Awake()
     {
         player = GameObject.FindObjectOfType<AxeSoldier>().transform;
         agent = GetComponent<NavMeshAgent>();
+        _animator = GetComponentInChildren<Animator>();
     }
 
     private void Update()
@@ -36,12 +42,30 @@ public class EnemyAI : MonoBehaviour
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
 
-        if (!playerInSightRange && !playerInAttackRange) Patroling();
-        if (playerInSightRange && !playerInAttackRange) ChasePlayer();
-        if (playerInAttackRange && playerInSightRange) AttackPlayer();
+        if (!playerInSightRange && !playerInAttackRange)
+        {
+            if (shouldPatrol)
+            {
+                Patrol();
+            }
+            else
+            {
+                Idle();
+            }
+        }
+
+        if (playerInSightRange && !playerInAttackRange)
+        {
+            ChasePlayer();
+        }
+
+        if (playerInAttackRange && playerInSightRange)
+        {
+            AttackPlayer();
+        }
     }
 
-    private void Patroling()
+    private void Patrol()
     {
         if (!walkPointSet) SearchWalkPoint();
 
@@ -53,6 +77,13 @@ public class EnemyAI : MonoBehaviour
         //Walkpoint reached
         if (distanceToWalkPoint.magnitude < 1f)
             walkPointSet = false;
+
+        SwitchAnimation(AnimationState.Walk);
+    }
+
+    private void Idle()
+    {
+        SwitchAnimation(AnimationState.Idle);
     }
 
     private void SearchWalkPoint()
@@ -70,6 +101,7 @@ public class EnemyAI : MonoBehaviour
     private void ChasePlayer()
     {
         agent.SetDestination(player.position);
+        SwitchAnimation(AnimationState.Walk);
     }
 
     private void AttackPlayer()
@@ -77,18 +109,22 @@ public class EnemyAI : MonoBehaviour
         //Make sure enemy doesn't move
         agent.SetDestination(transform.position);
 
-        transform.LookAt(player);
+        transform.LookAt(new Vector3(player.position.x, transform.position.y, player.position.z));
 
         if (!alreadyAttacked)
         {
             //TODO: Replace line below with custom attacks per enemy time (ie: froggee, turtly boy, archer)
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 3f, ForceMode.Impulse);
+            rb.AddForce(transform.forward * 20f, ForceMode.Impulse);
+            rb.AddForce(transform.up * 4.5f, ForceMode.Impulse);
+            //rb.transform.Rotate(Vector3.forward);
+            rb.transform.LookAt(player);
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
+
+        SwitchAnimation(AnimationState.Attack);
     }
 
     private void ResetAttack()
@@ -114,5 +150,30 @@ public class EnemyAI : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, attackRange);
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, sightRange);
+    }
+
+    void SwitchAnimation(AnimationState newState)
+    {
+        _animator.SetBool("isIdle", false);
+        _animator.SetBool("isWalking", false);
+        _animator.SetBool("isAttacking", false);
+        _animator.SetBool("isDefending", false);
+
+        if (newState == AnimationState.Idle)
+        {
+            _animator.SetBool("isIdle", true);
+        }
+        else if (newState == AnimationState.Walk)
+        {
+            _animator.SetBool("isWalking", true);
+        }
+        else if (newState == AnimationState.Attack)
+        {
+            _animator.SetBool("isAttacking", true);
+        }
+        else if (newState == AnimationState.Defend)
+        {
+            _animator.SetBool("isDefending", true);
+        }
     }
 }
