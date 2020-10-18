@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 83283046}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: RetrievedTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 1377570526}
   - component: {fileID: 1377570528}
   - component: {fileID: 1377570527}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2065298743}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: ThrownAxeSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 2079988856}
   - component: {fileID: 2079988855}
   - component: {fileID: 2079988854}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 1465796141327233842}
   - component: {fileID: 1465796141327233805}
   - component: {fileID: 1465796141327233843}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Sprite Animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,7 +488,7 @@ GameObject:
   - component: {fileID: 4030666632992428682}
   - component: {fileID: 2573877700382832800}
   - component: {fileID: 470135688}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: AxeSoldier
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -591,7 +591,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pivot: {fileID: 1465796141327233804}
-  throwKey: 304
   _animator: {fileID: 1465796141327233805}
   _axeThrowManager: {fileID: 470135688}
   canThrowAxe: 0
@@ -627,7 +626,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4030666634942957837}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camera Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +656,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1307745407050520249}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: ThrownTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5780545198257641100}
   - component: {fileID: 1054615218}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: AxeThrowSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -771,7 +770,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5654875896340415054}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -804,6 +803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647698278791593230, guid: 10649ea87cc378948840cc26aa0074a5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2833755180469367406, guid: 10649ea87cc378948840cc26aa0074a5,
         type: 3}
@@ -864,6 +868,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ThrownAxe - Flat
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833755180469367411, guid: 10649ea87cc378948840cc26aa0074a5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6698431861722772665, guid: 10649ea87cc378948840cc26aa0074a5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7477564964366079728, guid: 10649ea87cc378948840cc26aa0074a5,
         type: 3}
