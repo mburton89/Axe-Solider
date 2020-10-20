@@ -8,10 +8,15 @@ public class AxeSoldier : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private AxeThrowManager _axeThrowManager;
     [HideInInspector] public bool canThrowAxe;
+    public HealthBar healthBar;
+    public float health;
+    private float _initialHealth;
 
     private void Start()
     {
         canThrowAxe = true;
+        Cursor.visible = false;
+        _initialHealth = health;
     }
 
     void Update()
@@ -23,6 +28,16 @@ public class AxeSoldier : MonoBehaviour
         else if (Input.GetMouseButtonUp(0))
         {
             _axeThrowManager.RetrieveAxe();
+        }
+    }
+
+    public void TakeDamage(float damageToTake)
+    {
+        health = health - damageToTake;
+        healthBar.SetHealth(_initialHealth - (_initialHealth - health));
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 }

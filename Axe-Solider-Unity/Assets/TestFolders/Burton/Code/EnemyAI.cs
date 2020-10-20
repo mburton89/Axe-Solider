@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
@@ -8,6 +9,7 @@ public class EnemyAI : MonoBehaviour
     public NavMeshAgent agent;
     public Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
+    private float _initialHealth;
     public float health;
 
     //Patrol AI
@@ -29,11 +31,16 @@ public class EnemyAI : MonoBehaviour
 
     public bool shouldPatrol;
 
+    public GameObject healthCanvas;
+    public Image healthFill;
+
     private void Awake()
     {
         player = GameObject.FindObjectOfType<AxeSoldier>().transform;
         agent = GetComponent<NavMeshAgent>();
         _animator = GetComponentInChildren<Animator>();
+        healthCanvas.SetActive(false);
+        _initialHealth = health;
     }
 
     private void Update()
@@ -116,7 +123,7 @@ public class EnemyAI : MonoBehaviour
             //TODO: Replace line below with custom attacks per enemy time (ie: froggee, turtly boy, archer)
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 20f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 4.5f, ForceMode.Impulse);
+            rb.AddForce(transform.up * 2f, ForceMode.Impulse);
             //rb.transform.Rotate(Vector3.forward);
             rb.transform.LookAt(player);
 
@@ -174,6 +181,17 @@ public class EnemyAI : MonoBehaviour
         else if (newState == AnimationState.Defend)
         {
             _animator.SetBool("isDefending", true);
+        }
+    }
+
+    public void TakeDamage(float damageToTake)
+    {
+        healthCanvas.SetActive(true);
+        health = health - damageToTake;
+        healthFill.fillAmount = health / _initialHealth;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 }
