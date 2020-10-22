@@ -31,6 +31,51 @@ Transform:
   m_Father: {fileID: 1465796141327233804}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1208408408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1208408409}
+  - component: {fileID: 1208408410}
+  m_Layer: 0
+  m_Name: Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1208408409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208408408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.176, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4030666632992428685}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1208408410
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208408408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1377570525
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +533,7 @@ GameObject:
   - component: {fileID: 4030666632992428682}
   - component: {fileID: 2573877700382832800}
   - component: {fileID: 470135688}
+  - component: {fileID: 1690117586}
   m_Layer: 15
   m_Name: AxeSoldier
   m_TagString: Player
@@ -509,6 +555,7 @@ Transform:
   - {fileID: 4030666634942957837}
   - {fileID: 5654875896340415054}
   - {fileID: 3676072549926187699}
+  - {fileID: 1208408409}
   m_Father: {fileID: 1465796142163371750}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -594,6 +641,8 @@ MonoBehaviour:
   _animator: {fileID: 1465796141327233805}
   _axeThrowManager: {fileID: 470135688}
   canThrowAxe: 0
+  healthBar: {fileID: 0}
+  health: 100
 --- !u!114 &470135688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -617,6 +666,19 @@ MonoBehaviour:
   - {fileID: 2381491201887176742, guid: 81cff2183e9766b44bf31790307c0227, type: 3}
   _secondsBetweenFrames: 0.03
   _axe: {fileID: 8327763074535970349}
+--- !u!65 &1690117586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030666632992428684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.65, y: 1.9, z: 0.65}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &4030666634942957836
 GameObject:
   m_ObjectHideFlags: 0

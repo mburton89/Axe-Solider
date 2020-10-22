@@ -16,6 +16,8 @@ public class AxeSoldier : MonoBehaviour
     {
         canThrowAxe = true;
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        //Screen.lockCursor = true;
         _initialHealth = health;
     }
 
