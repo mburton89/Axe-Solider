@@ -15,6 +15,5 @@ public class SoundManager : MonoBehaviour
     public void PlayCoinSound()
     {
         coinAudio.Play();
-
     }
 }
