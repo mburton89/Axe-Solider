@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AxeSoldier : MonoBehaviour
 {
@@ -41,5 +42,10 @@ public class AxeSoldier : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void HandleDeath()
+    {
+
     }
 }
