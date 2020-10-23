@@ -24,6 +24,7 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
         private float GroundClampSpeed => -Mathf.Tan(Mathf.Deg2Rad * mover.maxFloorAngle) * moveSpeed;
         private Animator _animator;
         private SpriteRenderer _spriteRenderer;
+        [SerializeField] private AudioSource _jump;
 
         private void Awake()
         {
@@ -76,6 +77,7 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
                 verticalSpeed = jumpSpeed;
                 nextUngroundedTime = -1f;
                 isGrounded = false;
+                _jump.Play();
             }
 
             if (isGrounded)

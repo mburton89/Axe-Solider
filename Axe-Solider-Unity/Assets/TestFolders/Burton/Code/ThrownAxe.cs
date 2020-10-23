@@ -14,6 +14,9 @@ public class ThrownAxe : MonoBehaviour
 
     private BoxCollider _boxCollider;
     private SpriteRenderer _spriteRenderer;
+    private bool _isActive;
+
+    [SerializeField] private AudioSource _whoosh;
 
     private void Awake()
     {
@@ -43,6 +46,15 @@ public class ThrownAxe : MonoBehaviour
                 Activate(false);
             }
         }
+
+        if (_isActive)
+        {
+            _whoosh.enabled = true;
+        }
+        else
+        {
+            _whoosh.enabled = false;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -63,6 +75,7 @@ public class ThrownAxe : MonoBehaviour
 
     void Activate(bool enabled)
     {
+        _isActive = enabled;
         _boxCollider.enabled = enabled;
         _spriteRenderer.enabled = enabled;
     }
