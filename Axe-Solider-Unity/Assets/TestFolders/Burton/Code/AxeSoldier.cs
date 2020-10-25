@@ -56,9 +56,11 @@ public class AxeSoldier : MonoBehaviour
     {
         DeathScreen.Instance.Activate();
         _pivot.gameObject.SetActive(false);
+        SoundManager.Instance.PlayFailSound();
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         OrbitingCamera.enabled = false;
+        
     }
 
     public void RespawnPlayer()

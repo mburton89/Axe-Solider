@@ -6,6 +6,7 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager Instance;
     public AudioSource coinAudio;
+    public AudioSource failAudio;
 
     private void Awake()
     {
@@ -15,5 +16,10 @@ public class SoundManager : MonoBehaviour
     public void PlayCoinSound()
     {
         coinAudio.Play();
+    }
+
+    public void PlayFailSound()
+    {
+        failAudio.Play();
     }
 }
