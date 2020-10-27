@@ -55,8 +55,7 @@ public class AxeSoldier : MonoBehaviour
     void HandleDeath()
     {
         DeathScreen.Instance.Activate();
-        _pivot.gameObject.SetActive(false);
-        SoundManager.Instance.PlayFailSound();
+        //_pivot.gameObject.SetActive(false);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         OrbitingCamera.enabled = false;
@@ -68,7 +67,7 @@ public class AxeSoldier : MonoBehaviour
         transform.position = respawnPoint.position;
         health = _initialHealth;
         healthBar.SetHealth(health);
-        _pivot.gameObject.SetActive(true);
+        //_pivot.gameObject.SetActive(true);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         OrbitingCamera.enabled = true;
