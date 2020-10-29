@@ -32,7 +32,7 @@ public class CoinManager : MonoBehaviour
         if(_collectedCoins >= _totalCoins)
         {
             //You Win Menu? Or Level Continue
-            //YouWinMenu.Instance.Show();
+            YouWinMenu.Instance.Show("You Win!");
         }
     }
 }
