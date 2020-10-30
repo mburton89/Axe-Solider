@@ -34,6 +34,10 @@ public class EnemyAI : MonoBehaviour
     public GameObject healthCanvas;
     public Image healthFill;
 
+    //audio
+    [SerializeField] private AudioSource _ouch;
+    [SerializeField] private AudioSource _attack;
+
     private void Awake()
     {
         player = GameObject.FindObjectOfType<AxeSoldier>().transform;
@@ -109,6 +113,7 @@ public class EnemyAI : MonoBehaviour
     {
         agent.SetDestination(player.position);
         SwitchAnimation(AnimationState.Walk);
+        _attack.Stop();
     }
 
     private void AttackPlayer()
@@ -127,6 +132,8 @@ public class EnemyAI : MonoBehaviour
             //rb.transform.Rotate(Vector3.forward);
             rb.transform.LookAt(player);
 
+            _attack.Play();
+
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
@@ -143,7 +150,7 @@ public class EnemyAI : MonoBehaviour
     {
         health -= damage;
 
-        if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
+        if (health <= 0)Invoke(nameof(DestroyEnemy), 0.5f);
     }
 
     private void DestroyEnemy()
@@ -189,6 +196,7 @@ public class EnemyAI : MonoBehaviour
         healthCanvas.SetActive(true);
         health = health - damageToTake;
         healthFill.fillAmount = health / _initialHealth;
+        _ouch.Play();
         if (health <= 0)
         {
             Destroy(gameObject);
