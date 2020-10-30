@@ -21,9 +21,9 @@ public class Coin : Collectible
     {
     
         //Handle updating coin UI here.
-        //CoinManager.Instance.IncrementCollectedCoinCount();
         print("Got Coin");
         SoundManager.Instance.PlayCoinSound();
+        CoinManager.Instance.IncrementCollectedCoinCount();
     }
 
     private void Update()
