@@ -299,4 +299,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01aa9b8f0afb4ba48a2efc71faf7c04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelMusic: {fileID: 852764965}
   coinAudio: {fileID: 5935482237634451646}
