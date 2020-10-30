@@ -771,6 +771,7 @@ MonoBehaviour:
   _axeThrowManager: {fileID: 470135688}
   canThrowAxe: 0
   health: 100
+  _axeSoldierHurt: {fileID: 0}
   respawnPoint: {fileID: 0}
 --- !u!114 &470135688
 MonoBehaviour:
