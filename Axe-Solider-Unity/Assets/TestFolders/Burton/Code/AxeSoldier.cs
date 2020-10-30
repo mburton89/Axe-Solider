@@ -27,6 +27,7 @@ public class AxeSoldier : MonoBehaviour
         //Screen.lockCursor = true;
         _initialHealth = health;
         Instance = this;
+        Application.targetFrameRate = 60;
     }
 
     void Update()
