@@ -9,52 +9,51 @@ public class DeathScreen : MonoBehaviour
     public static DeathScreen Instance;
     public GameObject DeathScreenContainer;
     public GameObject HealthBar;
-    public GameObject AxeSoldierNoCamera;
+    private GameObject _axeSoldierNoCamera;
     public Button ReloadButton;
     public Button QuitButton;
-    public AudioSource LevelMusic;
+    private AudioSource _levelMusic;
     [SerializeField] private AudioSource _fail;
-
     private void Awake()
     {
         Instance = this;
+        _axeSoldierNoCamera = FindObjectOfType<AxeSoldier>().gameObject;
     }
 
+    private void Start()
+    {
+        _levelMusic = SoundManager.Instance.levelMusic;
+    }
     private void OnEnable()
     {
         ReloadButton.onClick.AddListener(Reload);
         QuitButton.onClick.AddListener(QuitGame);
     }
-
     private void OnDisable()
     {
         ReloadButton.onClick.RemoveListener(Reload);
         QuitButton.onClick.RemoveListener(QuitGame);
     }
-
     public void Activate()
     {
         HealthBar.SetActive(false);
-        AxeSoldierNoCamera.SetActive(false);
+        _axeSoldierNoCamera.SetActive(false);
         DeathScreenContainer.SetActive(true);
         _fail.Play();
-        LevelMusic.Stop();
+        _levelMusic.Stop();
     }
-
     public void Deactivate()
     {
         HealthBar.SetActive(true);
-        AxeSoldierNoCamera.SetActive(true);
+        _axeSoldierNoCamera .SetActive(true);
         DeathScreenContainer.SetActive(false);
-        LevelMusic.Play();
+        _levelMusic.Play();
     }
-
     void Reload()
     {
         AxeSoldier.Instance.RespawnPlayer();
         Deactivate();
     }
-
     void QuitGame()
     {
         SceneManager.LoadScene(0);
