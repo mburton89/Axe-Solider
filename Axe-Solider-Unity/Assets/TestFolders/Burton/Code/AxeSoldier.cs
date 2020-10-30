@@ -12,7 +12,7 @@ public class AxeSoldier : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private AxeThrowManager _axeThrowManager;
     [HideInInspector] public bool canThrowAxe;
-    public HealthBar healthBar;
+    private HealthBar _healthBar;
     public float health;
     private float _initialHealth;
 
@@ -21,6 +21,7 @@ public class AxeSoldier : MonoBehaviour
 
     private void Start()
     {
+        _healthBar = FindObjectOfType<HealthBar>();
         canThrowAxe = true;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -50,7 +51,7 @@ public class AxeSoldier : MonoBehaviour
     public void TakeDamage(float damageToTake)
     {
         health = health - damageToTake;
-        healthBar.SetHealth(_initialHealth - (_initialHealth - health));
+        _healthBar.SetHealth(_initialHealth - (_initialHealth - health));
     }
 
     void HandleDeath()
@@ -67,7 +68,7 @@ public class AxeSoldier : MonoBehaviour
     {
         transform.position = respawnPoint.position;
         health = _initialHealth;
-        healthBar.SetHealth(health);
+        _healthBar.SetHealth(health);
         //_pivot.gameObject.SetActive(true);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;

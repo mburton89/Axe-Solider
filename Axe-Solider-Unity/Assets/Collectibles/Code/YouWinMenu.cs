@@ -10,8 +10,6 @@ public class YouWinMenu : MonoBehaviour
 {
     public static YouWinMenu Instance;
     public GameObject container;
-    public Button restartButton;
-    public Button dismissButton;
     public TextMeshProUGUI winMessage;
     public AudioSource audioSource;
 
@@ -30,18 +28,6 @@ public class YouWinMenu : MonoBehaviour
         }
     }
 
-    private void OnEnable()
-    {
-        restartButton.onClick.AddListener(HandleRestartPressed);
-        dismissButton.onClick.AddListener(Hide);
-    }
-
-    private void OnDisable()
-    {
-        restartButton.onClick.RemoveListener(HandleRestartPressed);
-        dismissButton.onClick.RemoveListener(Hide);
-    }
-
     void HandleRestartPressed()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -52,7 +38,6 @@ public class YouWinMenu : MonoBehaviour
         container.SetActive(true);
         transform.localScale = Vector3.zero;
         transform.DOScale(1, _animationSpeed).SetEase(Ease.OutBack);
-        StartCoroutine(ShowNextButton());
         winMessage.SetText(message);
         audioSource.Play();
     }
@@ -60,16 +45,5 @@ public class YouWinMenu : MonoBehaviour
     public void Hide()
     {
         container.SetActive(false);
-    }
-
-    private IEnumerator ShowNextButton()
-    {
-        restartButton.gameObject.SetActive(false);
-        dismissButton.gameObject.SetActive(false);
-        yield return new WaitForSeconds(2);
-        restartButton.gameObject.SetActive(true);
-        dismissButton.gameObject.SetActive(true);
-        restartButton.transform.DOShakeScale(_animationSpeed, 1, 10, 90, true);
-        dismissButton.transform.DOShakeScale(_animationSpeed, 1, 10, 90, true);
     }
 }
