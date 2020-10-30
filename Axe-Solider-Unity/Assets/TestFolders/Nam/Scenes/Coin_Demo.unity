@@ -609,6 +609,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4243512884387723229, guid: e087651ecb274ce4980294884f737264,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e087651ecb274ce4980294884f737264, type: 3}
 --- !u!1 &1094952401
@@ -1856,21 +1861,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1465796143121375642, guid: e885244a1d00f2e4bb2a28a8a31830be,
-        type: 3}
-      propertyPath: sensitivity
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030666632992428682, guid: e885244a1d00f2e4bb2a28a8a31830be,
-        type: 3}
-      propertyPath: jumpSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4030666632992428682, guid: e885244a1d00f2e4bb2a28a8a31830be,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e885244a1d00f2e4bb2a28a8a31830be, type: 3}

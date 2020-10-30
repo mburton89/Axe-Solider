@@ -12,18 +12,24 @@ public class Coin : Collectible
     public float bobDuration;
     public Ease ease;
 
+    private bool _canCollect;
+
     private void Start()
     {
+        _canCollect = true;
         StartCoroutine(BobCo());
         _initialYPosition = transform.position.y;
     }
     public override void GetCollected()
     {
-    
-        //Handle updating coin UI here.
-        print("Got Coin");
-        SoundManager.Instance.PlayCoinSound();
-        CoinManager.Instance.IncrementCollectedCoinCount();
+        if (_canCollect)
+        {
+            //Handle updating coin UI here.
+            _canCollect = true;
+            print("Got Coin");
+            SoundManager.Instance.PlayCoinSound();
+            CoinManager.Instance.IncrementCollectedCoinCount();
+        }
     }
 
     private void Update()
