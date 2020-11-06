@@ -16,6 +16,8 @@ public class AxeSoldier : MonoBehaviour
     public float health;
     private float _initialHealth;
 
+    [SerializeField] private AudioSource _axeSoldierHurt;
+
     // Make empty GameObject in scene then drag it to this name. This will be where Axe Soldier respawns.
     public Transform respawnPoint;
 
@@ -52,6 +54,7 @@ public class AxeSoldier : MonoBehaviour
     {
         health = health - damageToTake;
         _healthBar.SetHealth(_initialHealth - (_initialHealth - health));
+        _axeSoldierHurt.Play();
     }
 
     void HandleDeath()
