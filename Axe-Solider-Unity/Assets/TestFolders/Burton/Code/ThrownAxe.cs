@@ -18,10 +18,26 @@ public class ThrownAxe : MonoBehaviour
 
     [SerializeField] private AudioSource _whoosh;
 
+    private float _hitDamage;
+    private float _stayDamage;
+
     private void Awake()
     {
         _boxCollider = GetComponent<BoxCollider>();
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        _hitDamage = 50f;
+        _stayDamage = .5f;
+    }
+    private void Start()
+    {
+        if (PlayerPrefs.GetInt("hasStaredGame") == 1)
+        {
+            _hitDamage = _hitDamage * PlayerPrefs.GetFloat("axeDamageMultiplier");
+            print("axeHitDamage = " + _hitDamage);
+
+            _stayDamage = _stayDamage * PlayerPrefs.GetFloat("axeDamageMultiplier");
+            print("_stayDamage = " + _stayDamage);
+        }
     }
 
     private void Update()
@@ -61,7 +77,7 @@ public class ThrownAxe : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            collision.gameObject.GetComponent<EnemyAI>().TakeDamage(50f);
+            collision.gameObject.GetComponent<EnemyAI>().TakeDamage(_hitDamage);
         }
     }
 
@@ -69,7 +85,7 @@ public class ThrownAxe : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            collision.gameObject.GetComponent<EnemyAI>().TakeDamage(.5f);
+            collision.gameObject.GetComponent<EnemyAI>().TakeDamage(_stayDamage);
         }
     }
 

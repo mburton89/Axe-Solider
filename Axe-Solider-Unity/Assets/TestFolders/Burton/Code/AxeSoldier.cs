@@ -23,6 +23,12 @@ public class AxeSoldier : MonoBehaviour
 
     private void Start()
     {
+        if (PlayerPrefs.GetInt("hasStaredGame") == 1)
+        {
+            health = health * PlayerPrefs.GetFloat("healthMultiplier");
+            print("health: = " + health);
+        }
+
         _healthBar = FindObjectOfType<HealthBar>();
         canThrowAxe = true;
         Cursor.visible = false;
