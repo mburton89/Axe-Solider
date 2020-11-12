@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using MenteBacata.ScivoloCharacterControllerDemo;
 using MenteBacata.ScivoloCharacterController;
 using DG.Tweening;
@@ -21,8 +20,6 @@ public class AxeSoldier : MonoBehaviour
 
     [SerializeField] private AudioSource _axeSoldierHurt;
     private bool _canFlatten;
-
-    // Make empty GameObject in scene then drag it to this name. This will be where Axe Soldier respawns.
     public Transform respawnPoint;
 
     private void Start()
@@ -34,7 +31,6 @@ public class AxeSoldier : MonoBehaviour
         _canFlatten = true;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        //Screen.lockCursor = true;
         _initialHealth = health;
         Instance = this;
         Application.targetFrameRate = 60;
@@ -83,7 +79,6 @@ public class AxeSoldier : MonoBehaviour
         transform.position = respawnPoint.position;
         health = _initialHealth;
         _healthBar.SetHealth(health);
-        //_pivot.gameObject.SetActive(true);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         OrbitingCamera.enabled = true;
@@ -97,8 +92,6 @@ public class AxeSoldier : MonoBehaviour
     private IEnumerator FlattenCo()
     {
         _canFlatten = false;
-        //Vector3 initialRotateAmount = _animator.transform.localEulerAngles.x,
-        //Vector3 rotateAmount = new Vector3(_animator.transform.localEulerAngles.x, _animator.transform.localEulerAngles.y + 90, 0);
         Vector3 rotateAmount = new Vector3(0, 90, 0);
         float duration = .5f;
         float initialRadius = _capsule.radius;

@@ -6706,6 +6706,28 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8573332089624532922, guid: d9446118bd1a4ea42b589968863d30c3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8573332089624532922, guid: d9446118bd1a4ea42b589968863d30c3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -164.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8573332089624532925, guid: d9446118bd1a4ea42b589968863d30c3,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 77d216faae517c940ae38c89f317987b,
+        type: 2}
+    - target: {fileID: 8573332089624532925, guid: d9446118bd1a4ea42b589968863d30c3,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6042804818181369605, guid: 77d216faae517c940ae38c89f317987b,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9446118bd1a4ea42b589968863d30c3, type: 3}
 --- !u!43 &1076792969
