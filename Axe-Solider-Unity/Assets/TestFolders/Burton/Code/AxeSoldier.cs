@@ -3,20 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using MenteBacata.ScivoloCharacterControllerDemo;
+using MenteBacata.ScivoloCharacterController;
+using DG.Tweening;
 
 public class AxeSoldier : MonoBehaviour
 {
     public OrbitingCamera OrbitingCamera;
     public static AxeSoldier Instance;
-    [SerializeField] private Transform _pivot;
     [SerializeField] private Animator _animator;
     [SerializeField] private AxeThrowManager _axeThrowManager;
     [HideInInspector] public bool canThrowAxe;
     private HealthBar _healthBar;
     public float health;
     private float _initialHealth;
+    private CapsuleCollider _capsule;
+    private CharacterCapsule _characterCapsule;
 
     [SerializeField] private AudioSource _axeSoldierHurt;
+    private bool _canFlatten;
 
     // Make empty GameObject in scene then drag it to this name. This will be where Axe Soldier respawns.
     public Transform respawnPoint;
@@ -24,7 +28,10 @@ public class AxeSoldier : MonoBehaviour
     private void Start()
     {
         _healthBar = FindObjectOfType<HealthBar>();
+        _capsule = GetComponent<CapsuleCollider>();
+        _characterCapsule = GetComponent<CharacterCapsule>();
         canThrowAxe = true;
+        _canFlatten = true;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         //Screen.lockCursor = true;
@@ -42,6 +49,11 @@ public class AxeSoldier : MonoBehaviour
         else if (Input.GetMouseButtonUp(0))
         {
             _axeThrowManager.RetrieveAxe();
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && _canFlatten)
+        {
+            Flatten();
         }
 
         if(health <= 0)
@@ -63,8 +75,7 @@ public class AxeSoldier : MonoBehaviour
         //_pivot.gameObject.SetActive(false);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
-        OrbitingCamera.enabled = false;
-        
+        OrbitingCamera.enabled = false; 
     }
 
     public void RespawnPlayer()
@@ -76,5 +87,29 @@ public class AxeSoldier : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         OrbitingCamera.enabled = true;
+    }
+
+    void Flatten()
+    {
+        StartCoroutine(FlattenCo());
+    }
+
+    private IEnumerator FlattenCo()
+    {
+        _canFlatten = false;
+        //Vector3 initialRotateAmount = _animator.transform.localEulerAngles.x,
+        //Vector3 rotateAmount = new Vector3(_animator.transform.localEulerAngles.x, _animator.transform.localEulerAngles.y + 90, 0);
+        Vector3 rotateAmount = new Vector3(0, 90, 0);
+        float duration = .5f;
+        float initialRadius = _capsule.radius;
+        _capsule.radius = .03f;
+        _characterCapsule.Radius = .03f;
+        _animator.transform.DOLocalRotate(rotateAmount, duration, RotateMode.Fast);
+        yield return new WaitForSeconds(duration * 2);
+        _animator.transform.DOLocalRotate(Vector3.zero, duration, RotateMode.Fast);
+        yield return new WaitForSeconds(duration);
+        _capsule.radius = initialRadius;
+        _characterCapsule.Radius = initialRadius;
+        _canFlatten = true;
     }
 }
