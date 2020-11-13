@@ -8,8 +8,8 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
 {
     public class SimpleCharacterController : MonoBehaviour
     {
-        public float moveSpeed = 5f;
-        public float jumpSpeed = 8f;
+        public float moveSpeed;
+        public float jumpSpeed;
         public float rotationSpeed = 720f;
         public float gravity = -25f;
         public CharacterMover mover;
@@ -35,6 +35,15 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
         private void Start()
         {
             cameraTransform = Camera.main.transform;
+
+            if (PlayerPrefs.GetInt("hasStaredGame") == 1)
+            {
+                jumpSpeed = jumpSpeed * PlayerPrefs.GetFloat("jumpMultiplier");
+                print("jumpSpeed: = " + jumpSpeed);
+
+                moveSpeed = moveSpeed * PlayerPrefs.GetFloat("speedMultiplier");
+                print("moveSpeed: = " + moveSpeed);
+            }
         }
 
         private void Update()

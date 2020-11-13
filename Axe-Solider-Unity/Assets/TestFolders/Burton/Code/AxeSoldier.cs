@@ -24,6 +24,12 @@ public class AxeSoldier : MonoBehaviour
 
     private void Start()
     {
+        if (PlayerPrefs.GetInt("hasStaredGame") == 1)
+        {
+            health = health * PlayerPrefs.GetFloat("healthMultiplier");
+            print("health: = " + health);
+        }
+
         _healthBar = FindObjectOfType<HealthBar>();
         _capsule = GetComponent<CapsuleCollider>();
         _characterCapsule = GetComponent<CharacterCapsule>();
