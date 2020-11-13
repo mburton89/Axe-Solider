@@ -7,29 +7,36 @@ public class CoinManager : MonoBehaviour
 {
     public static CoinManager Instance;
 
-    private int _totalCoins;
-    private int _collectedCoins;
+    private int _totalCoinsInLevel;
+    private int _collectedCoinsInLevel;
+    private int _totalCoinsInGame;
 
     public TextMeshProUGUI coinCount;
+    public TextMeshProUGUI coinCountTwo;
 
     private void Awake()
     {
         Instance = this;
-        _totalCoins = FindObjectsOfType<Coin>().Length;
+        _totalCoinsInLevel = FindObjectsOfType<Coin>().Length;
         DisplayCoinCount();
+
+        _totalCoinsInGame = PlayerPrefs.GetInt("coinCount");
     }
 
     void DisplayCoinCount()
     {
-        coinCount.SetText(_collectedCoins + "/" + _totalCoins);
+        coinCount.SetText(_collectedCoinsInLevel + "/" + _totalCoinsInLevel);
+        coinCountTwo.SetText(_collectedCoinsInLevel + "/" + _totalCoinsInLevel);
     }
 
     public void IncrementCollectedCoinCount()
     {
-        _collectedCoins++;
+        _collectedCoinsInLevel++;
         DisplayCoinCount();
 
-        if(_collectedCoins >= _totalCoins)
+        PlayerPrefs.SetInt("coinCount", PlayerPrefs.GetInt("coinCount") + 1);
+
+        if (_collectedCoinsInLevel >= _totalCoinsInLevel)
         {
             //You Win Menu? Or Level Continue
             YouWinMenu.Instance.Show("You Win!");
