@@ -113,12 +113,12 @@ Material:
     - _SrcBlend: 1
     - _Strench: 0.2
     - _Strensh: 2
-    - _TextureChangespeed: 0.8
+    - _TextureChangespeed: 0
     - _TextureDistanse: 0
     - _TextureStrench: 0.952
     - _UVSec: 0
-    - _U_Speed: 0.5
-    - _V_Speed: 0.2
+    - _U_Speed: 0.01
+    - _V_Speed: 0.01
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
