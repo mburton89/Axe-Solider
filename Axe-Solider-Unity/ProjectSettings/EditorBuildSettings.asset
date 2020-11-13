@@ -18,9 +18,9 @@ EditorBuildSettings:
     path: Assets/TestFolders/Daniel/Scenes/DanielTestScene.unity
     guid: 8f3a635a2e4c60148abf1135338d094f
   - enabled: 1
-    path: Assets/TestFolders/Jasmin/Assets/Forest Level/Assets/Forest.unity
-    guid: 2af82946e1ed89f429be2dfd638bb8fa
-  - enabled: 1
     path: Assets/TestFolders/Sean/Scenes/SeanVolcanoLevel.unity
     guid: ab4c440e315856144b116c2aa2e2b4f4
+  - enabled: 1
+    path: Assets/TestFolders/Jasmin/Assets/Forest Level/Assets/Forest.unity
+    guid: 2af82946e1ed89f429be2dfd638bb8fa
   m_configObjects: {}

@@ -12,6 +12,7 @@ public class CoinManager : MonoBehaviour
     private int _totalCoinsInGame;
 
     public TextMeshProUGUI coinCount;
+    public TextMeshProUGUI coinCountTwo;
 
     private void Awake()
     {
@@ -25,6 +26,7 @@ public class CoinManager : MonoBehaviour
     void DisplayCoinCount()
     {
         coinCount.SetText(_collectedCoinsInLevel + "/" + _totalCoinsInLevel);
+        coinCountTwo.SetText(_collectedCoinsInLevel + "/" + _totalCoinsInLevel);
     }
 
     public void IncrementCollectedCoinCount()
