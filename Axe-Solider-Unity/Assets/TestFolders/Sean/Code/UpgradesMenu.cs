@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
     
 public class UpgradesMenu : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class UpgradesMenu : MonoBehaviour
 
     public GameObject needMoreMoneyBroMenu;
     public AudioSource needMoreMoneySound;
+    public AudioSource spentMoney;
 
     private void Awake()
     {
@@ -67,6 +69,7 @@ public class UpgradesMenu : MonoBehaviour
             print("healthMultiplier; " + PlayerPrefs.GetFloat("healthMultiplier"));
             PlayerPrefs.SetInt("coinCount", PlayerPrefs.GetInt("coinCount") - costToUpgradeHealth);
             CoinCount.SetText(PlayerPrefs.GetInt("coinCount").ToString());
+            SpentMoney();
         }
         else
         {
@@ -81,6 +84,7 @@ public class UpgradesMenu : MonoBehaviour
             print("jumpMultiplier; " + PlayerPrefs.GetFloat("jumpMultiplier"));
             PlayerPrefs.SetInt("coinCount", PlayerPrefs.GetInt("coinCount") - costToUpgradeJump);
             CoinCount.SetText(PlayerPrefs.GetInt("coinCount").ToString());
+            SpentMoney();
         }
         else
         {
@@ -95,6 +99,7 @@ public class UpgradesMenu : MonoBehaviour
             print("speedMultiplier; " + PlayerPrefs.GetFloat("speedMultiplier"));
             PlayerPrefs.SetInt("coinCount", PlayerPrefs.GetInt("coinCount") - costToUpgradeSpeed);
             CoinCount.SetText(PlayerPrefs.GetInt("coinCount").ToString());
+            SpentMoney();
         }
         else
         {
@@ -109,6 +114,7 @@ public class UpgradesMenu : MonoBehaviour
             print("axeDamageMultiplier; " + PlayerPrefs.GetFloat("axeDamageMultiplier"));
             PlayerPrefs.SetInt("coinCount", PlayerPrefs.GetInt("coinCount") - costToUpgradeDamage);
             CoinCount.SetText(PlayerPrefs.GetInt("coinCount").ToString());
+            SpentMoney();
         }
         else
         {
@@ -126,6 +132,16 @@ public class UpgradesMenu : MonoBehaviour
         needMoreMoneySound.Play();
         yield return new WaitForSeconds(1);
         needMoreMoneyBroMenu.SetActive(false);
+    }
+
+    void SpentMoney()
+    {
+        spentMoney.Play();
+    }
+
+    public void LevelSelect()
+    {
+        SceneManager.LoadScene(0);
     }
 }
 
