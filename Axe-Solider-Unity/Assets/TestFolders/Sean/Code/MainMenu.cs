@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+    public AudioSource buttonClicked;
+
     public void PlayGame()
     {
+        buttonClicked.Play();
         SceneManager.LoadScene(1);
     }
 
