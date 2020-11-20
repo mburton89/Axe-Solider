@@ -25,6 +25,9 @@ public class CoinManager : MonoBehaviour
 
     void DisplayCoinCount()
     {
+        //coinCount.SetText(_collectedCoinsInLevel + "/" + _totalCoinsInLevel);
+        //coinCountTwo.SetText(_collectedCoinsInLevel + "/" + _totalCoinsInLevel);
+
         coinCount.SetText(_collectedCoinsInLevel + "/" + _totalCoinsInLevel);
         coinCountTwo.SetText(_collectedCoinsInLevel + "/" + _totalCoinsInLevel);
     }
@@ -36,10 +39,10 @@ public class CoinManager : MonoBehaviour
 
         PlayerPrefs.SetInt("coinCount", PlayerPrefs.GetInt("coinCount") + 1);
 
-        if (_collectedCoinsInLevel >= _totalCoinsInLevel)
+        /*if (_collectedCoinsInLevel >= _totalCoinsInLevel)
         {
             //You Win Menu? Or Level Continue
             YouWinMenu.Instance.Show("You Win!");
-        }
+        }*/
     }
 }
