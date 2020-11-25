@@ -22,6 +22,14 @@ public class AxeSoldier : MonoBehaviour
     private bool _canFlatten;
     public Transform respawnPoint;
 
+    public SpriteRenderer withAxeSprite;
+    public SpriteRenderer noAxeSprite;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     private void Start()
     {
         if (PlayerPrefs.GetInt("hasStaredGame") == 1)
@@ -38,7 +46,6 @@ public class AxeSoldier : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         _initialHealth = health;
-        Instance = this;
         Application.targetFrameRate = 60;
     }
 

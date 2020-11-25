@@ -1,7 +1,88 @@
 fileFormatVersion: 2
 guid: ea94cd7ce0665094abba09ac4d64b07e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 225839376778139921
+    second: Axe_Soldier_Slide_0
+  - first:
+      213: 8687702493684337660
+    second: Axe_Soldier_Slide_1
+  - first:
+      213: 8737689549541511262
+    second: Axe_Soldier_Slide_2
+  - first:
+      213: -565842963116627874
+    second: Axe_Soldier_Slide_3
+  - first:
+      213: 8132768134720097670
+    second: Axe_Soldier_Slide_4
+  - first:
+      213: -3927291338286757263
+    second: Axe_Soldier_Slide_5
+  - first:
+      213: -9136471809544539281
+    second: Axe_Soldier_Slide_6
+  - first:
+      213: -4283064396803669302
+    second: Axe_Soldier_Slide_7
+  - first:
+      213: -4664851547838679856
+    second: Axe_Soldier_Slide_8
+  - first:
+      213: 3508035153695949751
+    second: Axe_Soldier_Slide_9
+  - first:
+      213: 3102089819235606923
+    second: Axe_Soldier_Slide_10
+  - first:
+      213: 6114159555520390421
+    second: Axe_Soldier_Slide_11
+  - first:
+      213: 3709837647889866486
+    second: Axe_Soldier_Slide_12
+  - first:
+      213: 2904822609397999683
+    second: Axe_Soldier_Slide_13
+  - first:
+      213: 1525429507131130883
+    second: Axe_Soldier_Slide_14
+  - first:
+      213: -206865298575386967
+    second: Axe_Soldier_Slide_15
+  - first:
+      213: -62206072274753211
+    second: Axe_Soldier_Slide_16
+  - first:
+      213: 7487204985135184747
+    second: Axe_Soldier_Slide_17
+  - first:
+      213: -2202168368401784078
+    second: Axe_Soldier_Slide_18
+  - first:
+      213: 3887579126810541224
+    second: Axe_Soldier_Slide_19
+  - first:
+      213: -508641357254009811
+    second: Axe_Soldier_Slide_20
+  - first:
+      213: -8153403015189248911
+    second: Axe_Soldier_Slide_21
+  - first:
+      213: -1909774483537102276
+    second: Axe_Soldier_Slide_22
+  - first:
+      213: 4279296969778917019
+    second: Axe_Soldier_Slide_23
+  - first:
+      213: -4768122663193022334
+    second: Axe_Soldier_Slide_24
+  - first:
+      213: -2742423651901288044
+    second: Axe_Soldier_Slide_25
+  - first:
+      213: 5940509063326521263
+    second: Axe_Soldier_Slide_26
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +122,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,7 +147,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -78,7 +159,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,7 +183,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,7 +195,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,7 +207,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,7 +216,574 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119182577b7522300800000000000000
+      internalID: 225839376778139921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 198
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb845a736be09870800000000000000
+      internalID: 8687702493684337660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 198
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50901ed952824970800000000000000
+      internalID: 8737689549541511262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 198
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5867c0b2d8b528f0800000000000000
+      internalID: -565842963116627874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d8b9e77856dd070800000000000000
+      internalID: 8132768134720097670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 165
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a03f3e5557f79c0800000000000000
+      internalID: -3927291338286757263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 165
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f633abbdb4bb43180800000000000000
+      internalID: -9136471809544539281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 165
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2056eaf9f7f84c0800000000000000
+      internalID: -4283064396803669302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4f4219b3e134fb0800000000000000
+      internalID: -4664851547838679856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 132
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b341abc26b0fa030800000000000000
+      internalID: 3508035153695949751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 132
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81e4e84146dc0b20800000000000000
+      internalID: 3102089819235606923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 132
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5156ad6b8bbd9d450800000000000000
+      internalID: 6114159555520390421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe98d86fadfb7330800000000000000
+      internalID: 3709837647889866486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 99
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348e0b8d5c0005820800000000000000
+      internalID: 2904822609397999683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 99
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304437efd0a6b2510800000000000000
+      internalID: 1525429507131130883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 99
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a61f026b11112df0800000000000000
+      internalID: -206865298575386967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549e03728eff22ff0800000000000000
+      internalID: -62206072274753211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b348bd345e7e760800000000000000
+      internalID: 7487204985135184747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_18
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 66
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f26fc959835071e0800000000000000
+      internalID: -2202168368401784078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 66
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acf3c95e9473f530800000000000000
+      internalID: 3887579126810541224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c5dc66161f0f8f0800000000000000
+      internalID: -508641357254009811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 33
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174cb01082b49de80800000000000000
+      internalID: -8153403015189248911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 33
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a7aa3c93e1f75e0800000000000000
+      internalID: -1909774483537102276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 33
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ee31cdbed136b30800000000000000
+      internalID: 4279296969778917019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280f3ee43b934ddb0800000000000000
+      internalID: -4768122663193022334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4915bc4f734f0f9d0800000000000000
+      internalID: -2742423651901288044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axe_Soldier_Slide_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7d098d48de07250800000000000000
+      internalID: 5940509063326521263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

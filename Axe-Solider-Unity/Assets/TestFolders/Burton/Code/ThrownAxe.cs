@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ThrownAxe : MonoBehaviour
 {
+    [HideInInspector] public AxeThrowManager controller;
+
     public float rotationSpeed;
     public float movementSpeed;
     public Transform thrownTarget;
@@ -28,6 +30,7 @@ public class ThrownAxe : MonoBehaviour
         _hitDamage = 50f;
         _stayDamage = .5f;
     }
+
     private void Start()
     {
         if (PlayerPrefs.GetInt("hasStaredGame") == 1)
@@ -60,6 +63,12 @@ public class ThrownAxe : MonoBehaviour
             if (Vector3.Distance(transform.position, retrievedTarget.position) < 0.1f)
             {
                 Activate(false);
+
+                if (!controller.isThrowingAxe)
+                {
+                    AxeSoldier.Instance.withAxeSprite.enabled = true;
+                    AxeSoldier.Instance.noAxeSprite.enabled = false;
+                }
             }
         }
 

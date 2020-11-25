@@ -171,9 +171,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 759
-        width: 245
-        height: 253
+        y: 99
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: axe-soldier-rear-run-no-axe_1
       rect:
         serializedVersion: 2
-        x: 245
-        y: 759
-        width: 245
-        height: 253
+        x: 32
+        y: 99
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: axe-soldier-rear-run-no-axe_2
       rect:
         serializedVersion: 2
-        x: 490
-        y: 759
-        width: 245
-        height: 253
+        x: 64
+        y: 99
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,9 +234,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 506
-        width: 245
-        height: 253
+        y: 66
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: axe-soldier-rear-run-no-axe_4
       rect:
         serializedVersion: 2
-        x: 245
-        y: 506
-        width: 245
-        height: 253
+        x: 32
+        y: 66
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: axe-soldier-rear-run-no-axe_5
       rect:
         serializedVersion: 2
-        x: 490
-        y: 506
-        width: 245
-        height: 253
+        x: 64
+        y: 66
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,9 +297,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 253
-        width: 245
-        height: 253
+        y: 33
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,10 +317,10 @@ TextureImporter:
       name: axe-soldier-rear-run-no-axe_7
       rect:
         serializedVersion: 2
-        x: 245
-        y: 253
-        width: 245
-        height: 253
+        x: 32
+        y: 33
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +338,10 @@ TextureImporter:
       name: axe-soldier-rear-run-no-axe_8
       rect:
         serializedVersion: 2
-        x: 490
-        y: 253
-        width: 245
-        height: 253
+        x: 64
+        y: 33
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,8 +361,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 245
-        height: 253
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

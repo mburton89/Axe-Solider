@@ -22,15 +22,11 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
         private Transform cameraTransform;
         private List<MoveContact> moveContacts = new List<MoveContact>(10);
         private float GroundClampSpeed => -Mathf.Tan(Mathf.Deg2Rad * mover.maxFloorAngle) * moveSpeed;
-        private Animator _animator;
-        private SpriteRenderer _spriteRenderer;
+        [SerializeField] private Animator _animatorWithAxe;
+        [SerializeField] private Animator _animatorNoAxe;
+        [SerializeField] private SpriteRenderer _spriteRendererWithAxe;
+        [SerializeField] private SpriteRenderer _spriteRendererNoAxe;
         [SerializeField] private AudioSource _jump;
-
-        private void Awake()
-        {
-            _animator = GetComponentInChildren<Animator>();
-            _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        }
 
         private void Start()
         {
@@ -44,6 +40,8 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
                 moveSpeed = moveSpeed * PlayerPrefs.GetFloat("speedMultiplier");
                 print("moveSpeed: = " + moveSpeed);
             }
+
+            _animatorNoAxe.SetBool("hasAxe", false);
         }
 
         private void Update()
@@ -51,15 +49,18 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
-            _animator.SetFloat("horizontalMovement", Mathf.Abs(horizontalInput));
+            _animatorWithAxe.SetFloat("horizontalMovement", Mathf.Abs(horizontalInput));
+            _animatorNoAxe.SetFloat("horizontalMovement", Mathf.Abs(horizontalInput));
 
             if (horizontalInput < 0)
             {
-                _spriteRenderer.flipX = true;
+                _spriteRendererWithAxe.flipX = true;
+                _spriteRendererNoAxe.flipX = true;
             }
             else
             {
-                _spriteRenderer.flipX = false;
+                _spriteRendererWithAxe.flipX = false;
+                _spriteRendererNoAxe.flipX = false;
             }
 
             Vector3 moveDirection = CameraRelativeVectorFromInput(horizontalInput, verticalInput);
@@ -125,10 +126,15 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
                 ApplyPlatformDisplacement(platformDisplacement.Value);
             }
 
-            _animator.SetFloat("speed", Mathf.Abs(velocity.z));
-            _animator.SetBool("isJumping", !isGrounded);
+            _animatorWithAxe.SetFloat("speed", Mathf.Abs(velocity.z));
+            _animatorWithAxe.SetBool("isJumping", !isGrounded);
+            _animatorWithAxe.SetBool("hasAxe", true);
+
+            _animatorNoAxe.SetFloat("speed", Mathf.Abs(velocity.z));
+            _animatorNoAxe.SetBool("isJumping", !isGrounded);
+            _animatorNoAxe.SetBool("hasAxe", false);
         }
-        
+
         // Gets world space vector in respect of camera orientation from two axes input.
         private Vector3 CameraRelativeVectorFromInput(float x, float y)
         {
