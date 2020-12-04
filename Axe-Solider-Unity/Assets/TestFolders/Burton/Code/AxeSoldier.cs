@@ -28,6 +28,11 @@ public class AxeSoldier : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+
+        if (respawnPoint == null)
+        {
+            respawnPoint = FindObjectOfType<RespawnPoint>().transform;
+        }
     }
 
     private void Start()
