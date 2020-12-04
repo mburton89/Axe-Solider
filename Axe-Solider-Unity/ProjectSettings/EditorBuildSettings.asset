@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/TestFolders/Sean/Scenes/MainMenu.unity
     guid: 7eeef248c40e1eb4e8365505b8847794
   - enabled: 1
-    path: Assets/TestFolders/Burton/Scenes/Sean's Scivolo Demo 1.unity
-    guid: 0f17f44e7cd1aed46a295bfa68e7ddaa
+    path: Assets/TestFolders/Sean/Scenes/UpgradeScreen.unity
+    guid: ee5f6a7a478115c4f9c7f7adf6d747ac
   - enabled: 1
     path: Assets/TestFolders/Jasmin/Assets/Waterfall Level/WaterFall.unity
     guid: 69c52721322d05a4289f51c6ea185fcb
@@ -21,9 +21,9 @@ EditorBuildSettings:
     path: Assets/TestFolders/Sean/Scenes/SeanVolcanoLevel.unity
     guid: ab4c440e315856144b116c2aa2e2b4f4
   - enabled: 1
-    path: Assets/TestFolders/Jasmin/Assets/Forest Level/Assets/Forest.unity
-    guid: 2af82946e1ed89f429be2dfd638bb8fa
+    path: Assets/TestFolders/Daniel/Scenes/Desert.unity
+    guid: 24d330a81e30c3a418c253744a5a39c6
   - enabled: 1
-    path: Assets/TestFolders/Sean/Scenes/UpgradeScreen.unity
-    guid: 3cedfe10031a0514abdb80dd6dc6beb0
+    path: Assets/TestFolders/Jasmin/Assets/Cave Level.unity
+    guid: c56d41c40c659b146b7ccbc62ef7a9da
   m_configObjects: {}
