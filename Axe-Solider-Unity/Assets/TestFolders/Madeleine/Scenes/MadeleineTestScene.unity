@@ -43,7 +43,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,9 +118,85 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &779252396
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.983426
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.7159488
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.283084
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_Name
+      value: skellybellie_attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: be538c19c7c392a49b469a4ae604fdd0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7419dc5c482c9b543917be4d4308a808, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be538c19c7c392a49b469a4ae604fdd0, type: 3}
 --- !u!1 &1270129294
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,7 +370,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &5852316842215828995
 PrefabInstance:
@@ -346,7 +422,7 @@ PrefabInstance:
     - target: {fileID: 5852316841655980179, guid: 55a93353f72cfbd42aad94659bca31ef,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5852316841655980179, guid: 55a93353f72cfbd42aad94659bca31ef,
         type: 3}
