@@ -24621,6 +24621,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 815687010}
+    - target: {fileID: 1706733104768337800, guid: 96c6bb212fee85248b178dc3eede448a,
+        type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1706733104768337801, guid: 96c6bb212fee85248b178dc3eede448a,
         type: 3}
       propertyPath: m_Name
@@ -24861,6 +24866,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 815687010}
+    - target: {fileID: 2983296184741461277, guid: 2af77dbd0a4d6754aaba1563e1097b93,
+        type: 3}
+      propertyPath: health
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 2983296184741461278, guid: 2af77dbd0a4d6754aaba1563e1097b93,
         type: 3}
       propertyPath: m_Name
@@ -25005,7 +25015,7 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 32768
-  health: 24
+  health: 50
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 5
   timeBetweenAttacks: 1
@@ -25484,6 +25494,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 815687010}
+    - target: {fileID: 6677811490204111304, guid: a93ccc6800448dc4dbe5e9160419cd19,
+        type: 3}
+      propertyPath: health
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 6677811490204111305, guid: a93ccc6800448dc4dbe5e9160419cd19,
         type: 3}
       propertyPath: m_Name
@@ -25563,6 +25578,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 815687010}
+    - target: {fileID: 4318374960226186785, guid: 5e2be4ac6f853da4aab5abc60982eb47,
+        type: 3}
+      propertyPath: health
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 4318374960226186786, guid: 5e2be4ac6f853da4aab5abc60982eb47,
         type: 3}
       propertyPath: m_Name
