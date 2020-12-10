@@ -9,7 +9,7 @@ public class DestroyVideo : MonoBehaviour
 
     private void Start()
     {
-        HUD.SetActive(false);
+        //HUD.SetActive(false);
         StartCoroutine(LateCall());
     }
 
@@ -17,6 +17,6 @@ public class DestroyVideo : MonoBehaviour
     {
         yield return new WaitForSeconds(setTime);
         Destroy(gameObject);
-        HUD.SetActive(true);
+        //HUD.SetActive(true);
     }
 }

@@ -7,7 +7,7 @@ public class LastTeleportPlayer : MonoBehaviour
 {
     public GameObject VideoPlayer;
     public float setTime;
-    public GameObject HUD;
+    //public GameObject HUD;
 
     private void Start()
     {
@@ -18,7 +18,7 @@ public class LastTeleportPlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            HUD.SetActive(false);
+            //HUD.SetActive(false);
             VideoPlayer.SetActive(true);
             Destroy(VideoPlayer, setTime);
 
@@ -29,7 +29,7 @@ public class LastTeleportPlayer : MonoBehaviour
     IEnumerator LateCall()
     {
         yield return new WaitForSeconds(setTime);
-        HUD.SetActive(true);
+        //HUD.SetActive(true);
 
         SceneManager.LoadScene(1);
         Cursor.visible = true;
