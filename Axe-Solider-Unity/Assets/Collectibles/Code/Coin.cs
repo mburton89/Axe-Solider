@@ -25,7 +25,7 @@ public class Coin : Collectible
         if (_canCollect)
         {
             //Handle updating coin UI here.
-            _canCollect = true;
+            _canCollect = false;
             print("Got Coin");
             SoundManager.Instance.PlayCoinSound();
             CoinManager.Instance.IncrementCollectedCoinCount();

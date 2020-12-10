@@ -155,6 +155,7 @@ public class EnemyAI : MonoBehaviour
 
     private void DestroyEnemy()
     {
+        
         Destroy(gameObject);
     }
 
@@ -199,6 +200,7 @@ public class EnemyAI : MonoBehaviour
         _ouch.Play();
         if (health <= 0)
         {
+            Instantiate(Resources.Load("Explosion") as GameObject, transform.position, transform.rotation, null);
             Destroy(gameObject);
         }
     }

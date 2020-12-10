@@ -85,6 +85,7 @@ public class AxeSoldier : MonoBehaviour
 
     void HandleDeath()
     {
+        Instantiate(Resources.Load("Explosion") as GameObject, transform.position, transform.rotation, null);
         DeathScreen.Instance.Activate();
         //_pivot.gameObject.SetActive(false);
         Cursor.visible = true;
