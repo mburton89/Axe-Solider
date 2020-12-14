@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/TestFolders/Sean/Scenes/UpgradeScreen.unity
     guid: ee5f6a7a478115c4f9c7f7adf6d747ac
   - enabled: 1
+    path: Assets/TestFolders/Sean/OpeningCutscene.unity
+    guid: ee125f5a8c3c3d94cbe410c1ddc9c74c
+  - enabled: 1
+    path: Assets/TestFolders/Sean/ClosingCutscene.unity
+    guid: 14969468bcb8ef64fb712fc16c41e37d
+  - enabled: 1
     path: Assets/TestFolders/Jasmin/Assets/Waterfall Level/WaterFall.unity
     guid: 69c52721322d05a4289f51c6ea185fcb
   - enabled: 1
